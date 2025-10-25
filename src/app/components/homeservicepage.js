@@ -11,7 +11,7 @@ export default function Homeservicepage() {
       description:
         "We build new homes with complete planning, structural work, and finishing — all under one roof.",
       image:
-        "https://cdn.pixabay.com/photo/2023/09/19/15/42/ai-generated-8262931_1280.jpg",
+        "https://images.pexels.com/photos/290275/pexels-photo-290275.jpeg",
       icon: "🏠",
     },
     {
@@ -20,7 +20,7 @@ export default function Homeservicepage() {
       description:
         "We handle small commercial spaces and buildings with professional guidance and quality finishing.",
       image:
-        "https://cdn.pixabay.com/photo/2023/09/19/15/42/ai-generated-8262931_1280.jpg",
+        "https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg",
       icon: "🏢",
     },
     {
@@ -29,19 +29,20 @@ export default function Homeservicepage() {
       description:
         "Whether it’s a small extension or full redesign, we bring a fresh and strong touch to your existing home.",
       image:
-        "https://cdn.pixabay.com/photo/2023/09/19/15/42/ai-generated-8262931_1280.jpg",
+        "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg",
       icon: "🛠️",
     },
   ];
 
   return (
 <div className="bg-[#f6f7f7] px-[8%] lg:pb-[16%] pb-[25%]">
-      {/* ✅ desktop response*/}
-<div className="hidden xl:block mt-[8%] pt-[5%] pb-[15%]">
+      {/* ✅ desktop responsive*/}
+<div className="hidden xl:block ">
+  <div className="mt-[8%] pt-[5%] pb-[15%]">
   {/* Section Header */}
   <div className="space-y-3 px-4 text-center">
-    <h1 className="text-[#063231] text-[90%] font-primary">WHAT WE DO</h1>
-    <h1 className="text-[#063231] font-bold text-[250%] font-primary">
+    <h1 className="text-[#063231] text-[1vw] font-primary">WHAT WE DO</h1>
+    <h1 className="text-[#063231] font-bold text-[2.5vw] font-primary">
       Our Construction Services
     </h1>
   </div>
@@ -63,13 +64,13 @@ export default function Homeservicepage() {
           </div>
 
           {/* Card Content */}
-          <div className="bg-white w-[75%] absolute top-[62%] left-1/2 -translate-x-1/2 rounded-2xl shadow-lg text-center p-[6%] flex flex-col justify-between min-h-[40vh]">
+          <div className="bg-white w-[75%] absolute top-[62%] left-1/2 -translate-x-1/2 rounded-2xl shadow-lg text-center p-[6%] flex flex-col justify-between min-h-[35vh]">
             <div className="flex flex-col items-center flex-grow">
-              <div className="text-[180%] mb-[3%]">{service.icon}</div>
-              <h3 className="text-[150%] font-semibold text-[#063231] mb-[5%] font-primary">
+              <div className="text-[2vw] mb-[3%]">{service.icon}</div>
+              <h3 className="text-[1.5vw] font-semibold text-[#063231] mb-[5%] font-primary">
                 {service.title}
               </h3>
-              <p className="text-gray-600 text-[95%] px-[4%] font-secondary leading-relaxed flex-grow">
+              <p className="text-gray-600 text-[1vw] px-[4%] font-secondary leading-relaxed flex-grow">
                 {service.description}
               </p>
             </div>
@@ -77,7 +78,7 @@ export default function Homeservicepage() {
             {/* ENQUIRE NOW button */}
             <Link
               href="/contact"
-              className="text-[#063231] cursor-pointer border-t border-gray-200 pt-[3%] font-semibold hover:underline font-c2a mt-[4%]"
+              className="text-[#063231] cursor-pointer text-[1vw] border-t border-gray-200 pt-[3%] font-semibold hover:underline font-c2a"
             >
               ENQUIRE NOW
             </Link>
@@ -86,14 +87,17 @@ export default function Homeservicepage() {
       ))}
     </div>
   </div>
+  </div>
 </div>
+ {/* ✅ desktop responsive*/}
 
- {/* ✅ laptop response*/}
-<div className="hidden lg:block xl:hidden mt-[8%] pt-[5%] pb-[20%]">
+ {/* ✅ laptop responsive*/}
+<div className="hidden lg:block xl:hidden">
+  <div className=" mt-[8%] pt-[5%] pb-[20%]">
   {/* Section Header */}
   <div className="space-y-3 px-4 text-center">
-    <h1 className="text-[#063231] text-[90%] font-primary">WHAT WE DO</h1>
-    <h1 className="text-[#063231] font-bold text-[250%] font-primary">
+    <h1 className="text-[#063231] text-[1.2vw] font-primary">WHAT WE DO</h1>
+    <h1 className="text-[#063231] font-bold text-[3.5vw] font-primary">
       Our Construction Services
     </h1>
   </div>
@@ -117,11 +121,11 @@ export default function Homeservicepage() {
           {/* Card Content */}
           <div className="bg-white w-[75%] absolute top-[62%] left-1/2 -translate-x-1/2 rounded-2xl shadow-lg text-center p-[6%] flex flex-col justify-between min-h-[30vh]">
             <div className="flex flex-col items-center flex-grow">
-              <div className="text-[150%] mb-[3%]">{service.icon}</div>
-              <h3 className="text-[120%] font-semibold text-[#063231] mb-[2%] font-primary">
+              <div className="text-[2.5vw] mb-[3%]">{service.icon}</div>
+              <h3 className="text-[2vw] font-semibold text-[#063231] mt-[2%] font-primary">
                 {service.title}
               </h3>
-              <p className="text-gray-600 text-[80%] px-[4%] font-secondary leading-relaxed flex-grow">
+              <p className="text-gray-600 text-[1.3vw] px-[4%] font-secondary leading-relaxed flex-grow">
                 {service.description}
               </p>
             </div>
@@ -129,7 +133,7 @@ export default function Homeservicepage() {
             {/* ENQUIRE NOW button */}
             <Link
               href="/contact"
-              className="text-[#063231] text-[100%] cursor-pointer border-t border-gray-200 pt-[3%] font-semibold hover:underline font-c2a mt-[4%]"
+              className="text-[#063231] text-[1.3vw] cursor-pointer border-t border-gray-200 pt-[3%] font-semibold hover:underline font-c2a mt-[5%]"
             >
               ENQUIRE NOW
             </Link>
@@ -138,12 +142,14 @@ export default function Homeservicepage() {
       ))}
     </div>
   </div>
+  </div>
 </div>
+ {/* ✅ laptop responsive*/}
 
 
      
 
-      {/* ✅ Mobile view (percentage-based version) */}
+      {/* ✅ Mobile responsive */}
 <div className="block sm:hidden pt-[10%] mt-[10%] pb-[35%]">
   {/* Section Header */}
   <div className="space-y-[2%] px-[5%] text-center">
@@ -170,13 +176,13 @@ export default function Homeservicepage() {
           </div>
 
           {/* Card Content */}
-          <div className="bg-white w-[90%] -mt-[10%] rounded-2xl shadow-lg text-center py-[8%] px-[6%] flex flex-col justify-between min-h-[45vh]">
+          <div className="bg-white w-[90%] -mt-[10%] rounded-2xl shadow-lg text-center py-[8%] px-[6%] flex flex-col justify-between min-h-[40vh]">
             <div className="flex flex-col items-center flex-grow">
               <div className="text-[200%] mb-[3%]">{service.icon}</div>
-              <h3 className="text-[150%] font-semibold text-[#063231] mb-[2%] font-primary">
+              <h3 className="text-[150%] font-semibold text-[#063231]  font-primary">
                 {service.title}
               </h3>
-              <p className="text-gray-600 text-[90%] px-[4%] pt-[10%] font-secondary leading-relaxed flex-grow">
+              <p className="text-gray-600 text-[90%] px-[4%] pt-[8%] font-secondary leading-relaxed flex-grow">
                 {service.description}
               </p>
             </div>

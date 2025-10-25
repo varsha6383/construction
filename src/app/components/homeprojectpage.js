@@ -5,24 +5,24 @@ import Link from 'next/link';
 function Homeprojectpage() {
   return (
     <div className="bg-white py-[10%] ">
-        {/* desktop response */}
+        {/* desktop responsive */}
         <div className="hidden xl:block">
-            <div className=" container mx-auto px-[8%]">
+            <div className=" container mx-auto px-[5%]">
         {/* Header Section */}
         <div className="flex justify-between items-center mb-[8%]">
   {/* Left Text Section */}
   <div className="w-1/2">
-    <p className="text-[90%] font-semibold text-gray-500 uppercase mb-[2%] font-primary">
+    <p className="text-[1vw] font-semibold text-gray-500 uppercase mb-[2%] font-primary">
       OUR PROJECTS
     </p>
-    <h2 className="text-[260%] font-bold text-[#063231] leading-snug font-primary">
+    <h2 className="text-[2.6vw] font-bold text-[#063231] leading-snug font-primary">
       Built to Last. <br /> Designed to Inspire.
     </h2>
   </div>
 
   {/* Right Text Section */}
   <div className="w-1/2 text-gray-600">
-    <p className="mb-[4%] text-[110%] font-secondary leading-relaxed">
+    <p className="mb-[4%] text-[1.2vw] font-secondary leading-relaxed">
       Every home we build is made to stand strong for generations, reflecting
       your dreams and our craftsmanship.
     </p>
@@ -76,9 +76,9 @@ function Homeprojectpage() {
 </div>
 </div>
       </div>
-<div className=" flex items-center gap-[20%] mt-[10%] py-[8%]  px-[8%] w-full bg-[#07303a] bg-blend-multiply  bg-cover bg-center bg-[url('https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg')]">
-<div className="w-[70%]"><h1 className="text-[200%] text-white font-bold font-primary">Let’s Build Your Dream Home.</h1>
-<p className="text-[110%] mt-6 text-white font-secondary ">Whether it’s your first home or a family project, Sri Velan Constructions is here to make your plan a reality.Call or meet us today to discuss your ideas.</p>
+<div className=" flex items-center gap-[20%] mt-[10%] py-[8%]  px-[12%] w-full bg-[#07303a] bg-blend-multiply  bg-cover bg-center bg-[url('https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg')]">
+<div className="w-[70%]"><h1 className="text-[2.5vw] text-white font-bold font-primary">Let’s Build Your Dream Home.</h1>
+<p className="text-[1.2vw] mt-6 text-white font-secondary ">Whether it’s your first home or a family project, Sri Velan Constructions is here to make your plan a reality.Call or meet us today to discuss your ideas.</p>
 </div>
 <div className="mt-10 w-[30%]">
     <button className="bg-lime-300 cursor-pointer border-dotted border-white px-[12%] py-2 rounded-3xl text-[#063231] font-c2a">
@@ -91,31 +91,32 @@ function Homeprojectpage() {
 
 </div>
         </div>
+        {/* desktop responsive */}
 
 
-        {/* laptop response*/}
+        {/* laptop responsive*/}
         <div className="hidden lg:block  xl:hidden">
-            <div className=" container mx-auto px-[8%]">
+            <div className=" container mx-auto px-[10%]">
         {/* Header Section */}
         <div className="flex justify-between items-center mb-[8%]">
   {/* Left Text Section */}
   <div className="w-1/2">
-    <p className="text-[70%] font-semibold text-gray-500 uppercase mb-[2%] font-primary">
+    <p className="text-[1.2vw] font-semibold text-gray-500 uppercase mb-[2%] font-primary">
       OUR PROJECTS
     </p>
-    <h2 className="text-[200%] font-bold text-[#063231] leading-snug font-primary">
+    <h2 className="text-[3vw] font-bold text-[#063231] leading-snug font-primary">
       Built to Last. <br /> Designed to Inspire.
     </h2>
   </div>
 
   {/* Right Text Section */}
   <div className="w-1/2 text-gray-600">
-    <p className="mb-[4%] text-[110%] font-secondary leading-relaxed">
+    <p className="mb-[4%] text-[1.5vw] font-secondary leading-relaxed">
       Every home we build is made to stand strong for generations, reflecting
       your dreams and our craftsmanship.
     </p>
 
-    <button className="bg-[#cbff54] cursor-pointer font-c2a text-[#063231] font-semibold py-[3%] px-[6%] rounded-full hover:bg-lime-500 transition text-[100%]">
+    <button className="bg-[#cbff54] cursor-pointer font-c2a text-[#063231] font-semibold py-[3%] px-[6%] rounded-full hover:bg-lime-500 transition text-[1.5vw]">
       <Link href="/projects">View Our Projects</Link>
     </button>
   </div>
@@ -165,8 +166,8 @@ function Homeprojectpage() {
 </div>
       </div>
 <div className=" flex items-center gap-[20%] mt-[10%] py-[8%]  px-[10%] w-full bg-[#07303a] bg-blend-multiply  bg-cover bg-center bg-[url('https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg')]">
-<div className="w-[70%]"><h1 className="text-[200%] text-white font-bold font-primary">Let’s Build Your Dream Home.</h1>
-<p className="text-[100%] mt-6 text-white font-secondary ">Whether it’s your first home or a family project, Sri Velan Constructions is here to make your plan a reality.Call or meet us today to discuss your ideas.</p>
+<div className="w-[70%]"><h1 className="text-[3vw] text-white font-bold font-primary">Let’s Build Your Dream Home.</h1>
+<p className="text-[1.5vw] mt-6 text-white font-secondary ">Whether it’s your first home or a family project, Sri Velan Constructions is here to make your plan a reality.Call or meet us today to discuss your ideas.</p>
 </div>
 <div className="mt-10 w-[30%]">
     <button className="bg-lime-300 cursor-pointer border-dotted border-white px-[10%] py-2 rounded-3xl text-[#063231] font-c2a">
@@ -180,10 +181,10 @@ function Homeprojectpage() {
 </div>
         </div>
 
-
+ {/* laptop responsive*/}
        
 
-{/* mobile response */}
+{/* mobile responsive */}
          <div className="block sm:hidden ">
             <div className=" container  px-[8%] ">
         {/* Header Section */}
@@ -268,7 +269,7 @@ function Homeprojectpage() {
 </div>
         </div>
 
-         {/* tab response */}
+         {/* tab responsive */}
          <div className="hidden sm:block lg:hidden">
             <div className=" container  px-[8%]">
         {/* Header Section */}

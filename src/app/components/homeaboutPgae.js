@@ -21,9 +21,9 @@ export default function Home() {
         </div>
 
         {/* Overlapping small image */}
-        <div className="absolute top-[65%] left-[65%] w-[35%] rounded-3xl overflow-hidden shadow-xl border-4 border-white">
+        <div className="absolute top-[70%] left-[55%] w-[45%] rounded-3xl overflow-hidden shadow-xl border-4 border-white">
           <Image
-            src="https://cdn.pixabay.com/photo/2023/09/19/15/42/ai-generated-8262931_1280.jpg"
+            src="https://images.pexels.com/photos/439391/pexels-photo-439391.jpeg"
             alt="Office Building"
             width={400}
             height={300}
@@ -34,17 +34,17 @@ export default function Home() {
 
       {/* Right: Text */}
       <div className="w-1/2 space-y-4">
-        <p className="text-[100%] font-semibold text-[#063231] font-primary">
+        <p className="text-[1.1vw] font-semibold text-[#063231] font-primary">
           ABOUT US
         </p>
 
-        <h1 className="text-[200%]  font-bold leading-tight text-[#063231] font-primary">
+        <h1 className="text-[2vw]  font-bold leading-tight text-[#063231] font-primary">
           Your Trusted <br className="hidden lg:block" />
           Construction Partner in <br className="hidden lg:block" />
           Kambainallore & Dharmapuri
         </h1>
 
-        <p className="text-gray-700 text-[100%] pr-[5%] font-secondary">
+        <p className="text-gray-700 text-[1.1vw] pr-[5%] font-secondary">
           Sri Velan Constructions is a local construction company based in
           Kambainallore, Dharmapuri. With years of hands-on experience, we focus
           on residential building projects that meet both budget and quality
@@ -56,29 +56,30 @@ export default function Home() {
         {/* Bullet Points */}
         <ul className="space-y-3 text-gray-800 font-secondary">
           <li className="flex items-center gap-2">
-            <span className="text-green-600 text-[100%]">✔</span> Residential Building Specialists
+            <span className="text-green-600 text-[1.1vw]">✔</span> Residential Building Specialists
           </li>
           <li className="flex items-center gap-2">
-            <span className="text-green-600 text-[100%]">✔</span> Skilled Manpower
+            <span className="text-green-600 text-[1.1vw]">✔</span> Skilled Manpower
           </li>
           <li className="flex items-center gap-2">
-            <span className="text-green-600 text-[100%]">✔</span> On-time Project Completion
+            <span className="text-green-600 text-[1.1vw]">✔</span> On-time Project Completion
           </li>
           <li className="flex items-center gap-2">
-            <span className="text-green-600 text-[100%]">✔</span> Strong Local Reputation
+            <span className="text-green-600 text-[1.1vw]">✔</span> Strong Local Reputation
           </li>
         </ul>
       </div>
     </div>
     </div>
+     {/* destop response */}
 
      {/* laptop response */}
       <div className="hidden lg:block xl:hidden">
-    <div className="flex flex-row items-center justify-center gap-10 mt-0 px-[8%]  pt-[20%] bg-white">
+    <div className="flex flex-row items-center justify-center gap-10 mt-0 px-[10%]  pt-[20%] bg-white">
       {/* Left: Images */}
       <div className="relative  w-1/2 flex justify-center">
         {/* Main image */}
-        <div className="w-[80%] rounded-3xl overflow-hidden shadow-md">
+        <div className="w-[100%] rounded-3xl overflow-hidden shadow-md">
           <Image
             src="https://cdn.pixabay.com/photo/2023/09/19/15/42/ai-generated-8262931_1280.jpg"
             alt="Modern Building"
@@ -90,7 +91,7 @@ export default function Home() {
         </div>
 
         {/* Overlapping small image */}
-        <div className="absolute top-[65%] left-[65%] w-[35%] rounded-3xl overflow-hidden shadow-xl border-4 border-white">
+        <div className="absolute top-[75%] left-[70%] w-[35%] rounded-3xl overflow-hidden shadow-xl border-4 border-white">
           <Image
             src="https://cdn.pixabay.com/photo/2023/09/19/15/42/ai-generated-8262931_1280.jpg"
             alt="Office Building"
@@ -103,17 +104,17 @@ export default function Home() {
 
       {/* Right: Text */}
       <div className="w-1/2 space-y-1">
-        <p className="text-[70%] font-semibold text-[#063231] font-primary">
+        <p className="text-[1.2vw] font-semibold text-[#063231] font-primary">
           ABOUT US
         </p>
 
-        <h1 className="text-[150%]  font-bold leading-tight text-[#063231] font-primary">
+        <h1 className="text-[2.5vw]  font-bold leading-tight text-[#063231] font-primary">
           Your Trusted <br className="hidden lg:block" />
           Construction Partner in <br className="hidden lg:block" />
           Kambainallore & Dharmapuri
         </h1>
 
-        <p className="text-gray-700 text-[80%] pr-[5%] font-secondary">
+        <p className="text-gray-700 text-[1.4vw] pr-[5%] font-secondary">
           Sri Velan Constructions is a local construction company based in
           Kambainallore, Dharmapuri. With years of hands-on experience, we focus
           on residential building projects that meet both budget and quality
@@ -125,28 +126,29 @@ export default function Home() {
         {/* Bullet Points */}
         <ul className="space-y-3 text-gray-800 font-secondary">
           <li className="flex items-center gap-2">
-            <span className="text-green-600 text-[80%]">✔</span> Residential Building Specialists
+            <span className="text-green-600 text-[1.2vw]">✔</span> Residential Building Specialists
           </li>
           <li className="flex items-center gap-2">
-            <span className="text-green-600 text-[80%]">✔</span> Skilled Manpower
+            <span className="text-green-600 text-[1.2vw]">✔</span> Skilled Manpower
           </li>
           <li className="flex items-center gap-2">
-            <span className="text-green-600 text-[80%]">✔</span> On-time Project Completion
+            <span className="text-green-600 text-[1.2vw]">✔</span> On-time Project Completion
           </li>
           <li className="flex items-center gap-2">
-            <span className="text-green-600 text-[80%]">✔</span> Strong Local Reputation
+            <span className="text-green-600 text-[1.2vw]">✔</span> Strong Local Reputation
           </li>
         </ul>
       </div>
     </div>
     </div>
+     {/* laptop response */}
 
     
 
 
     {/* mobile response */}
     <div className="block sm:hidden ">
-    <div className="flex flex-col  items-center justify-center gap-10 px-[8%] pt-20 mt-[150%] bg-white">
+    <div className="flex flex-col  items-center justify-center gap-10 px-[8%] pt-20 mt-[120%] bg-white">
       {/* Left: Images */}
       <div className="relative w-full  flex justify-center">
         {/* Main image */}

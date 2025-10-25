@@ -12,20 +12,20 @@ export default function Contact() {
     <main className="" >
       {/* Desktop Responsive */}
       <div className="hidden xl:block bg-white text-black">
-        <div className="bg-[#1b4343] flex  items-center justify-center bg-blend-multiply rounded-bl-[80%_100px] rounded-br-[80%_100px] w-full h-[90%] bg-cover bg-center bg-[url('https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg')]">
-          <div className="flex text-white items-center  text-center gap-4 py-[10%] px-[8%] flex-col">
-            <p className="bg-[#407d7d]/60  px-3 font-semibold py-1 rounded-full cursor-pointer font-primary text-[100%]">CONTACT</p>
-            <p className="font-bold text-[300%] font-primary">Get in Touch with Sri Velan Constructions</p>
-            <p className="font-sencondary text-[120%]">Reach out today to discuss your dream home or building project. We’re here to help with a free consultation.</p>
+        <div className="bg-[#1b4343] flex  items-center justify-center bg-blend-multiply rounded-bl-[80%_100px] rounded-br-[80%_100px] w-full h-[70vh] bg-cover bg-center bg-[url('https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg')]">
+          <div className="flex text-white items-center  text-center gap-4 py-[10%] px-[20%] flex-col">
+            <p className="bg-[#407d7d]/60  px-3 font-semibold py-1 rounded-full cursor-pointer font-primary text-[1vw]">CONTACT</p>
+            <p className="font-bold text-[3vw] font-primary">Get in Touch with Sri Velan Constructions</p>
+            <p className="font-sencondary text-[1.1vw]">Reach out today to discuss your dream home or building project. We’re here to help with a free consultation.</p>
           </div>
         </div>
 
         {/* Section */}
         <div className="flex justify-center h-full items-center w-full bg-white my-20 ">
           <div className="flex flex-col gap-8 w-[35%] pr-[5%] ">
-            <p className="font-semibold font-primary text-[100%] text-[#305658]">We’re Here to Help</p>
-            <p className="font-bold text-[200%] font-primary text-[#063231]">Let’s Talk About Your Next Build!</p>
-            <p className="font-sencondary text-[120%] text-[#305658]">Whether you’re planning a new home or renovation, we’d love to hear your ideas.
+            <p className="font-semibold font-primary text-[1vw] text-[#305658]">We’re Here to Help</p>
+            <p className="font-bold text-[2vw] font-primary text-[#063231]">Let’s Talk About Your Next Build!</p>
+            <p className="font-sencondary text-[1.1vw] text-[#305658]">Whether you’re planning a new home or renovation, we’d love to hear your ideas.
               Fill out the form, call us, or visit our office in Kambainallore, Dharmapuri — let’s start building something great together.</p>
 
             <div className="flex items-center gap-2">
@@ -34,7 +34,7 @@ export default function Contact() {
 
               <div className="flex flex-col">
                 <Image src="https://cdn.pixabay.com/photo/2022/06/30/03/44/five-stars-7292866_640.png" alt="Image is missing" width={100} height={50} className="h-[50px]"></Image>
-                <p className="font-sencondary text-[100%] text-[#305658]">260+ reviews (4.95 of 5)</p>
+                <p className="font-sencondary text-[1vw] text-[#305658]">260+ reviews (4.95 of 5)</p>
               </div>
             </div>
           </div>
@@ -45,27 +45,27 @@ export default function Contact() {
 
         {/* Section */}
         <div className="flex items-center flex-col w-full justify-center px-[8%] py-[8%] bg-[#f6f7f7]">
-          <p className=" font-semibold font-primary text-[100%] text-[#305658]">WE ARE HERE</p>
-          <p className="text-[300%] font-bold font-primary text-[#063231]">Find us on Google</p>
+          <p className=" font-semibold font-primary text-[1vw] text-[#305658]">WE ARE HERE</p>
+          <p className="text-[3vw] font-bold font-primary text-[#063231]">Find us on Google</p>
           <div className="grid grid-cols-3 items-center w-[80%] gap-8 justify-between h-full pt-[8%] ">
 
             <div className="flex flex-col h-full gap-3 bg-white shadow-2xl rounded-2xl items-center text-center p-10">
 <PiMapPinLineFill size={44} color="#cbff54" className="bg-[#063231] rounded-full p-2" />     
-         <p className="font-bold text-[150%] font-primary text-[#063231] ">Address</p>
-              <p className="font-sencondary text-[100%] text-[#305658]">Kambainallore, Dharmapuri, Tamil Nadu 635202</p>
+         <p className="font-bold text-[1.4vw] font-primary text-[#063231] ">Address</p>
+              <p className="font-sencondary text-[1vw] text-[#305658]">Kambainallore, Dharmapuri, Tamil Nadu 635202</p>
             </div>
 
 
             <div className="flex flex-col gap-3 h-full bg-white shadow-2xl rounded-2xl items-center text-center p-10 ">
 <FaWhatsapp size={44} color="#cbff54" className="bg-[#063231] rounded-full p-1.5"/>
-              <p className="font-bold text-[150%] font-primary text-[#063231]">Whatsapp</p>
-              <p className="font-sencondary text-[100%] text-[#305658]">+91 82485 01872</p>
+              <p className="font-bold text-[1.4vw] font-primary text-[#063231]">Whatsapp</p>
+              <p className="font-sencondary text-[1vw] text-[#305658]">+91 82485 01872</p>
             </div>
 
             <div className="flex flex-col h-full gap-3 bg-white shadow-2xl rounded-2xl items-center text-center p-10">
 <IoMdMail size={44} color="#cbff54" className="bg-[#063231] rounded-full p-2"/>         
-     <p className="font-bold text-[150%] font-primary text-[#063231]">Send Email</p>
-              <p className="font-sencondary text-[100%] text-[#305658]">
+     <p className="font-bold text-[1.4vw] font-primary text-[#063231]">Send Email</p>
+              <p className="font-sencondary text-[1vw] text-[#305658]">
                 <Link
                   href="https://mail.google.com/mail/u/0/?to=srivelamconstruction@gmail.com&su=Enquiry+Regarding+Construction+Services&fs=1&tf=cm"
                   target="_blank"
@@ -78,13 +78,13 @@ export default function Contact() {
 
             <div className="flex flex-col h-full gap-3  bg-white shadow-2xl rounded-2xl items-center text-center p-10">
 <IoCall  size={44} color="#cbff54" className="bg-[#063231] rounded-full p-2"/>
-              <p className="font-bold text-[150%] font-primary text-[#063231]">Call us</p>
-              <p className="font-sencondary text-[100%] text-[#305658]">+91 82485 01872</p>
+              <p className="font-bold text-[1.4vw] font-primary text-[#063231]">Call us</p>
+              <p className="font-sencondary text-[1vw] text-[#305658]">+91 82485 01872</p>
             </div>
 
             <div className="flex flex-col h-full gap-3 bg-white shadow-2xl rounded-2xl items-center text-center p-10">
 <TbLocation size={44} color="#cbff54" className="bg-[#063231] rounded-full p-2"/>      
-        <p className="font-bold  font-primary text-[150%] text-[#063231]">Follow us</p>
+        <p className="font-bold  font-primary text-[1.4vw] text-[#063231]">Follow us</p>
               <div className="flex gap-5">
                 <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-facebook-icon lucide-facebook bg-[#063231] rounded-full p-1"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
                 <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-instagram-icon lucide-instagram bg-[#063231] rounded-full p-1"><rect width="20" height="20" x="2" y="2" rx="5" ry="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" x2="17.51" y1="6.5" y2="6.5" /></svg>
@@ -94,9 +94,9 @@ export default function Contact() {
             </div>
             <div className="flex flex-col gap-3 h-full  bg-white shadow-2xl rounded-2xl items-center text-center p-10">
 <IoTimeOutline size={44} color="#cbff54" className="bg-[#063231] rounded-full p-1"/>    
-          <p className="font-bold text-[150%] font-primary text-[#063231]">Business Hours</p>
-              <div>  <p className="font-sencondary text-[100%] text-[#305658]">Monday – Saturday</p>
-                <p className="font-sencondary text-[100%] text-[#305658]">9:00 AM – 6:00 PM</p>
+          <p className="font-bold text-[1.4vw] font-primary text-[#063231]">Business Hours</p>
+              <div>  <p className="font-sencondary text-[1vw] text-[#305658]">Monday – Saturday</p>
+                <p className="font-sencondary text-[1vw] text-[#305658]">9:00 AM – 6:00 PM</p>
               </div>
             </div>
           </div>
@@ -104,25 +104,25 @@ export default function Contact() {
 
         </div>
       </div>
-
+{/* Desktop Responsive */}
 
 
       {/* Laptop Responsive */}
       <div className="xl:hidden hidden lg:block bg-white text-black">
-        <div className="bg-[#1b4343] flex  items-center justify-center bg-blend-multiply rounded-bl-[80%_100px] rounded-br-[80%_100px] w-full h-[90%] bg-cover bg-center bg-[url('https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg')]">
-          <div className="flex text-white items-center  text-center gap-4 py-[10%] px-[8%] flex-col">
-            <p className="bg-[#407d7d]/60  px-3 font-semibold py-1 rounded-full cursor-pointer font-primary text-[100%]">CONTACT</p>
-            <p className="font-bold text-[300%] font-primary">Get in Touch with Sri Velan Constructions</p>
-            <p className="font-sencondary text-[120%]">Reach out today to discuss your dream home or building project. We’re here to help with a free consultation.</p>
+        <div className="bg-[#1b4343] flex  items-center justify-center bg-blend-multiply rounded-bl-[80%_100px] rounded-br-[80%_100px] w-full h-[70vh] bg-cover bg-center bg-[url('https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg')]">
+          <div className="flex text-white items-center  text-center gap-4 py-[10%] px-[20%] flex-col">
+            <p className="bg-[#407d7d]/60  px-3 font-semibold py-1 rounded-full cursor-pointer font-primary text-[1.5vw]">CONTACT</p>
+            <p className="font-bold text-[4.5vw] font-primary">Get in Touch with Sri Velan Constructions</p>
+            <p className="font-sencondary text-[1.7vw]">Reach out today to discuss your dream home or building project. We’re here to help with a free consultation.</p>
           </div>
         </div>
 
         {/* Section */}
         <div className="flex justify-center gap-[8%] h-full items-center w-full  bg-white my-20 ">
           <div className="flex flex-col gap-[10%] w-[35%]  ">
-            <p className="font-semibold text-[#305658] font-primary text-[100%]">We’re Here to Help</p>
-            <p className="font-bold text-[200%] font-primary text-[#063231]">Let’s Talk About Your Next Build!</p>
-            <p className="font-sencondary text-[120%] text-[#305658]">Whether you’re planning a new home or renovation, we’d love to hear your ideas.
+            <p className="font-semibold text-[#305658] font-primary text-[1.8vw]">We’re Here to Help</p>
+            <p className="font-bold text-[2.8vw] font-primary text-[#063231]">Let’s Talk About Your Next Build!</p>
+            <p className="font-sencondary text-[1.7vw] text-[#305658]">Whether you’re planning a new home or renovation, we’d love to hear your ideas.
               Fill out the form, call us, or visit our office in Kambainallore, Dharmapuri — let’s start building something great together.</p>
 
             <div className="flex items-center gap-2">
@@ -131,7 +131,7 @@ export default function Contact() {
 
               <div className="flex flex-col">
                 <Image src="https://cdn.pixabay.com/photo/2022/06/30/03/44/five-stars-7292866_640.png" alt="Image is missing" width={100} height={50} className="h-[50px]"></Image>
-                <p className="font-sencondary text-[100%] text-[#305658]">260+ reviews (4.95 of 5)</p>
+                <p className="font-sencondary text-[1.5vw] text-[#305658]">260+ reviews (4.95 of 5)</p>
               </div>
             </div>
           </div>
@@ -142,27 +142,27 @@ export default function Contact() {
 
         {/* Section */}
         <div className="flex items-center flex-col w-full justify-center px-[10%] py-[8%] bg-[#f6f7f7]">
-          <p className=" font-semibold font-primary text-[100%] text-[#305658]">WE ARE HERE</p>
-          <p className="text-[300%] font-bold font-primary text-[#063231]">Find us on Google</p>
+          <p className=" font-semibold font-primary text-[1.5vw] text-[#305658]">WE ARE HERE</p>
+          <p className="text-[4vw] font-bold font-primary text-[#063231]">Find us on Google</p>
           <div className="grid grid-cols-3 items-center w-[100%] gap-8 justify-between h-full pt-[8%] ">
 
             <div className="flex flex-col h-full gap-3 bg-white shadow-2xl rounded-2xl items-center text-center p-10">
 <PiMapPinLineFill size={44} color="#cbff54" className="bg-[#063231] rounded-full p-2" />     
-              <p className="font-bold text-[150%] font-primary text-[#063231]">Address</p>
-              <p className="font-sencondary text-[100%] text-[#305658]">Kambainallore, Dharmapuri, Tamil Nadu 635202</p>
+              <p className="font-bold text-[2.2vw] font-primary text-[#063231]">Address</p>
+              <p className="font-sencondary text-[1.5vw] text-[#305658]">Kambainallore, Dharmapuri, Tamil Nadu 635202</p>
             </div>
 
 
             <div className="flex flex-col gap-3 h-full bg-white shadow-2xl rounded-2xl items-center text-center p-10 ">
 <FaWhatsapp size={44} color="#cbff54" className="bg-[#063231] rounded-full p-1.5"/>    
-          <p className="font-bold text-[150%] font-primary text-[#063231]">Whatsapp</p>
-              <p className="font-sencondary text-[100%] text-[#305658]">+91 82485 01872</p>
+          <p className="font-bold text-[2.2vw] font-primary text-[#063231]">Whatsapp</p>
+              <p className="font-sencondary text-[1.5vw] text-[#305658]">+91 82485 01872</p>
             </div>
 
             <div className="flex flex-col h-full gap-3 bg-white shadow-2xl rounded-2xl items-center text-center p-10">
 <IoMdMail size={44} color="#cbff54" className="bg-[#063231] rounded-full p-2"/>         
-              <p className="font-bold text-[150%] font-primary text-[#063231]">Send Email</p>
-              <p className="font-sencondary text-[100%] text-[#305658]">
+              <p className="font-bold text-[2.2vw] font-primary text-[#063231]">Send Email</p>
+              <p className="font-sencondary text-[1.5vw] text-[#305658]">
                 <Link
                   href="https://mail.google.com/mail/u/0/?to=srivelamconstruction@gmail.com&su=Enquiry+Regarding+Construction+Services&fs=1&tf=cm"
                   target="_blank"
@@ -175,13 +175,13 @@ export default function Contact() {
 
             <div className="flex flex-col h-full gap-3  bg-white shadow-2xl rounded-2xl items-center text-center p-10">
 <IoCall  size={44} color="#cbff54" className="bg-[#063231] rounded-full p-2"/>
-              <p className="font-bold text-[150%] font-primary text-[#063231]">Call us</p>
-              <p className="font-sencondary text-[100%] text-[#305658]">+91 82485 01872</p>
+              <p className="font-bold text-[2.2vw] font-primary text-[#063231]">Call us</p>
+              <p className="font-sencondary text-[1.5vw] text-[#305658]">+91 82485 01872</p>
             </div>
 
             <div className="flex flex-col h-full gap-3 bg-white shadow-2xl rounded-2xl items-center text-center p-10">
 <TbLocation size={44} color="#cbff54" className="bg-[#063231] rounded-full p-2"/>      
-              <p className="font-bold  font-primary text-[150%] text-[#063231]">Follow us</p>
+              <p className="font-bold  font-primary text-[2.2vw] text-[#063231]">Follow us</p>
               <div className="flex gap-5">
                 <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-facebook-icon lucide-facebook bg-[#063231] rounded-full p-1"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
                 <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-instagram-icon lucide-instagram bg-[#063231] rounded-full p-1"><rect width="20" height="20" x="2" y="2" rx="5" ry="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" x2="17.51" y1="6.5" y2="6.5" /></svg>
@@ -191,9 +191,9 @@ export default function Contact() {
             </div>
             <div className="flex flex-col gap-3 h-full  bg-white shadow-2xl rounded-2xl items-center text-center p-10">
 <IoTimeOutline size={44} color="#cbff54" className="bg-[#063231] rounded-full p-1"/>    
-              <p className="font-bold text-[150%] font-primary text-[#063231]">Business Hours</p>
-              <div>  <p className="font-sencondary text-[100%] text-[#305658]">Monday – Saturday</p>
-                <p className="font-sencondary text-[100%] text-[#305658]">9:00 AM – 6:00 PM</p>
+              <p className="font-bold text-[2.2vw] font-primary text-[#063231]">Business Hours</p>
+              <div>  <p className="font-sencondary text-[1.5vw] text-[#305658]">Monday – Saturday</p>
+                <p className="font-sencondary text-[1.5vw] text-[#305658]">9:00 AM – 6:00 PM</p>
               </div>
             </div>
           </div>
@@ -202,11 +202,11 @@ export default function Contact() {
 
         </div>
       </div>
+{/* Laptop Responsive */}
 
 
 
-
-      {/* MOBILE */}
+      {/* MOBILE Responsive */}
       <div className="sm:hidden block bg-white">
         <div className="bg-[#218686] bg-blend-multiply rounded-bl-[80%_100px] rounded-br-[80%_100px] w-full h-[40vh] bg-cover bg-center bg-[url('https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg')]">
           <div className="flex text-white items-center text-center gap-4 py-[20%] px-[6%] flex-col">

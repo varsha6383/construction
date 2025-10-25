@@ -36,18 +36,18 @@ export default function Hometrustpage() {
 
   return (
     <div className="px-[10%]">
-      {/* ✅ Desktop */}
+      {/* ✅ Desktop responsive */}
       <div className="hidden xl:block">
         <div className="flex flex-row items-center justify-between bg-white pb-12 gap-10">
           {/* Left Content */}
           <div className="w-1/2">
-            <p className="text-green-700 font-semibold text-[90%] mb-2 tracking-wide uppercase font-primary">
+            <p className="text-green-700 font-semibold text-[1vw] mb-2 tracking-wide uppercase font-primary">
               Proven & Trusted
             </p>
-            <h2 className="text-[250%] font-bold text-[#063231] leading-tight mb-4 font-primary">
+            <h2 className="text-[2.6vw] font-bold text-[#063231] leading-tight mb-4 font-primary">
               Backed by Results, <br /> Built on Relationships
             </h2>
-            <p className="text-gray-600 text-[100%] mb-8 leading-relaxed font-secondary">
+            <p className="text-gray-600 text-[1.1vw] mb-8 leading-relaxed font-secondary">
               Brikly has become a name homeowners trust. Whether it’s new
               construction or custom renovation, you’re in good company when
               you build with Brikly. Our strong partnerships are a reflection
@@ -57,24 +57,24 @@ export default function Hometrustpage() {
             {/* Stats */}
             <div ref={desktopRef} className="flex flex-col gap-8">
               <div>
-                <h3 className="text-[180%] my-3 font-bold text-[#063231] font-primary">
+                <h3 className="text-[2vw] my-3 font-bold text-[#063231] font-primary">
                   {desktopStart ? <CountUp start={0} end={100} duration={2} /> : "0"}+
                 </h3>
-                <p className="font-bold text-[110%] text-[#1b4343] font-primary">
+                <p className="font-bold text-[1.2vw] text-[#1b4343] font-primary">
                   Satisfied Clients
                 </p>
-                <p className="text-[#1b4343] text-[100%] font-secondary">
+                <p className="text-[#1b4343] text-[1.1vw] font-secondary">
                   Over 100 projects built with trust and excellence.
                 </p>
               </div>
               <div>
-                <h3 className="text-[180%] my-3 font-bold text-[#063231] font-primary">
+                <h3 className="text-[2vw] my-3 font-bold text-[#063231] font-primary">
                   {desktopStart ? <CountUp start={0} end={10} duration={2} /> : "0"} Yrs.
                 </h3>
-                <p className="font-bold text-[110%] text-[#1b4343] font-primary">
+                <p className="font-bold text-[2vw] text-[#1b4343] font-primary">
                   Structural Warranty
                 </p>
-                <p className="text-[#1b4343] text-[100%] font-secondary">
+                <p className="text-[#1b4343] text-[1.1vw] font-secondary">
                   Structural coverage & quality you can count on.
                 </p>
               </div>
@@ -92,25 +92,26 @@ export default function Hometrustpage() {
                 className="object-cover w-full h-auto"
               />
             </div>
-            <div className="absolute bottom-4 left-0 bg-lime-400 text-[#1b4343] font-semibold px-4 py-2 rounded-lg shadow-md font-secondary">
+            <div className="absolute bottom-4 left-0 text-[1.3vw] bg-lime-400 text-[#1b4343] font-semibold px-4 py-2 rounded-lg shadow-md font-secondary">
               Long-Term
               <br /> Reliability
             </div>
           </div>
         </div>
       </div>
+      {/* ✅ Desktop responsive */}
 
-      {/* ✅ Laptop */}
+      {/* ✅ Laptop responsive */}
       <div className="hidden lg:block xl:hidden">
         <div className="flex flex-row items-center justify-between bg-white pb-12 gap-10">
           <div className="w-1/2">
-            <p className="text-green-700 font-semibold text-[70%] mb-2 tracking-wide uppercase font-primary">
+            <p className="text-green-700 font-semibold text-[1.2vw] mb-2 tracking-wide uppercase font-primary">
               Proven & Trusted
             </p>
-            <h2 className="text-[200%] font-bold text-[#063231] leading-tight mb-4 font-primary">
+            <h2 className="text-[3vw] font-bold text-[#063231] leading-tight mb-4 font-primary">
               Backed by Results, <br /> Built on Relationships
             </h2>
-            <p className="text-gray-600 text-[80%] mb-4 leading-relaxed font-secondary">
+            <p className="text-gray-600 text-[1.4vw] mb-4 leading-relaxed font-secondary">
               Brikly has become a name homeowners trust. Whether it’s new
               construction or custom renovation, you’re in good company when
               you build with Brikly. Our strong partnerships are a reflection
@@ -119,24 +120,24 @@ export default function Hometrustpage() {
 
             <div ref={laptopRef} className="flex flex-col gap-4">
               <div>
-                <h3 className="text-[150%] font-bold text-[#063231] font-primary">
+                <h3 className="text-[2.5vw] font-bold text-[#063231] font-primary">
                   {laptopStart ? <CountUp start={0} end={100} duration={2} /> : "0"}+
                 </h3>
-                <p className="font-bold text-[90%] text-[#1b4343] font-primary">
+                <p className="font-bold text-[1.5vw] text-[#1b4343] font-primary">
                   Satisfied Clients
                 </p>
-                <p className="text-[#1b4343] text-[80%] font-secondary">
+                <p className="text-[#1b4343] text-[1.2vw] font-secondary">
                   Over 100 projects built with trust and excellence.
                 </p>
               </div>
               <div>
-                <h3 className="text-[150%] font-bold text-[#063231] font-primary">
+                <h3 className="text-[2.5vw] font-bold text-[#063231] font-primary">
                   {laptopStart ? <CountUp start={0} end={10} duration={2} /> : "0"} Yrs.
                 </h3>
-                <p className="font-bold text-[90%] text-[#1b4343] font-primary">
+                <p className="font-bold text-[1.5vw] text-[#1b4343] font-primary">
                   Structural Warranty
                 </p>
-                <p className="text-[#1b4343] text-[80%] font-secondary">
+                <p className="text-[#1b4343] text-[1.2vw] font-secondary">
                   Structural coverage & quality you can count on.
                 </p>
               </div>
@@ -144,7 +145,7 @@ export default function Hometrustpage() {
           </div>
 
           <div className="w-1/2 relative">
-            <div className="rounded-2xl mx-6 overflow-hidden shadow-lg">
+            <div className="w-[100%] rounded-2xl mx-6 overflow-hidden shadow-lg">
               <Image
                 src="https://cdn.pixabay.com/photo/2023/09/19/15/42/ai-generated-8262931_1280.jpg"
                 alt="Happy family in front of home"
@@ -160,6 +161,7 @@ export default function Hometrustpage() {
           </div>
         </div>
       </div>
+       {/* ✅ Laptop responsive */}
 
 
 

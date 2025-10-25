@@ -28,16 +28,16 @@ export default function Navbar() {
       {/* 1️⃣ DESKTOP RESPONSE */}
       
       <div className="hidden xl:block bg-transparent absolute w-full z-50">
-        <div className="max-w-7xl mx-auto px-[8%] py-5 flex justify-between items-center">
+        <div className="max-w-7xl mx-auto px-[5%] py-5 flex justify-between items-center">
           {/* Logo */}
           <Link href="/" onClick={closeMenu}>
 
-            <Image src="/sri_logo.png" alt="sri velan" width={100} height={300} />
+            <Image src="/sri_logo.png" alt="sri velan" width={130} height={300} />
       
           </Link>
 
           {/* Menu */}
-          <ul className="flex items-center space-x-10 text-[100%] text-white font-sencondary">
+          <ul className="flex items-center space-x-10 text-[1.2vw] text-white font-sencondary">
             {navItems.map((item) => (
               <li key={item.path}>
                 <Link
@@ -56,12 +56,13 @@ export default function Navbar() {
 
           {/* Contact Button */}
           <Link href="/contact">
-            <button className="bg-lime-400 text-gray-900 font-semibold px-6 py-2 rounded-full hover:bg-lime-500 transition font-c2a">
+            <button className="bg-lime-400 cursor-pointer text-gray-900 font-semibold px-6 py-2 rounded-full hover:bg-lime-500 transition font-c2a">
               GET IN TOUCH
             </button>
           </Link>
         </div>
       </div>
+      {/* 1️⃣ DESKTOP RESPONSE */}
 
      
       {/* 2️⃣ LAPTOP RESPONSE */}
@@ -74,7 +75,7 @@ export default function Navbar() {
       
           </Link>
 
-          <ul className="flex items-center space-x-6 text-[100%] text-white font-sencondary">
+          <ul className="flex items-center space-x-6 text-[1.3vw] text-white font-sencondary">
             {navItems.map((item) => (
               <li key={item.path}>
                 <Link
@@ -92,12 +93,13 @@ export default function Navbar() {
           </ul>
 
           <Link href="/contact">
-            <button className="bg-lime-400 text-gray-900 font-semibold px-5 py-2 rounded-full hover:bg-lime-500 transition font-c2a">
+            <button className="bg-lime-400 cursor-pointer text-gray-900 font-semibold px-5 py-2 rounded-full hover:bg-lime-500 transition font-c2a">
               GET IN TOUCH
             </button>
           </Link>
         </div>
       </div>
+      {/* 2️⃣ LAPTOP RESPONSE */}
 
      
       {/* 3️⃣ TABLET RESPONSE   */}
@@ -160,7 +162,7 @@ export default function Navbar() {
                   </li>
                 ))}
                 <Link href="/contact" onClick={closeMenu}>
-                  <button className="bg-lime-400 text-gray-900 font-semibold px-5 py-2 rounded-full hover:bg-lime-500 transition font-c2a">
+                  <button className="bg-lime-400 cursor-pointer text-gray-900 font-semibold px-5 py-2 rounded-full hover:bg-lime-500 transition font-c2a">
                     GET IN TOUCH
                   </button>
                 </Link>
@@ -231,7 +233,7 @@ export default function Navbar() {
                   </li>
                 ))}
                 <Link href="/contact" onClick={closeMenu}>
-                  <button className="bg-lime-400 text-gray-900 font-semibold px-4 py-2 rounded-full hover:bg-lime-500 transition font-c2a">
+                  <button className="bg-lime-400 cursor-pointer text-gray-900 font-semibold px-4 py-2 rounded-full hover:bg-lime-500 transition font-c2a">
                     GET IN TOUCH
                   </button>
                 </Link>

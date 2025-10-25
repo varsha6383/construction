@@ -6,9 +6,9 @@ export default function PrivacyPolicy() {
   return (
     <div className="bg-white text-[#0d2b2b] font-primary">
       
-      {/* ================= DESKTOP VIEW ================= */}
+      {/* desktop responsive */}
       <div className="hidden xl:block">
-        <div className="bg-[#0c3c3f] text-center text-white py-[8%]">
+        <div className="bg-[#0c3c3f] text-center text-white py-[10%]">
           <h1 className="text-[450%] font-bold mb-2 font-primary">Privacy Policy</h1>
         </div>
 
@@ -104,6 +104,8 @@ export default function PrivacyPolicy() {
           </div>
         </div>
       </div>
+       {/* desktop responsive */}
+
 
       {/* ================= LAPTOP VIEW ================= */}
       <div className="hidden lg:block xl:hidden">

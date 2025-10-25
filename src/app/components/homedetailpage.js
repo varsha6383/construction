@@ -3,19 +3,19 @@ import { Users, Ruler, Lightbulb, MessageCircle } from "lucide-react";
 export default function Homedetailpage() {
   return (
     <div className="bg-[#f8faf9] py-20  px-[8%]">
-       {/* ✅ Desktop response */}
+       {/* ✅ Desktop responsive */}
 <div className="hidden xl:block">
   <div className="mx-[3%] flex items-start gap-[5%]">
     
     {/* Left Content */}
     <div className="w-1/2">
-      <p className="text-[85%] font-semibold text-green-700 uppercase mb-[1%] font-primary">
+      <p className="text-[1vw] font-semibold text-green-700 uppercase mb-[1%] font-primary">
         Why Choose Us
       </p>
-      <h2 className="text-[280%] font-bold text-[#063231] mb-[3%] font-primary leading-tight">
+      <h2 className="text-[2.8vw] font-bold text-[#063231] mb-[3%] font-primary leading-tight">
         What Sets Us<br />Apart
       </h2>
-      <p className="text-gray-600 text-[110%] leading-relaxed font-secondary">
+      <p className="text-gray-600 text-[1.2vw] leading-relaxed font-secondary">
         We're more than just builders — we’re your trusted local partner.
         From smart design to solid delivery, every detail is handled with
         care, precision, and pride.
@@ -26,7 +26,7 @@ export default function Homedetailpage() {
     <div className="w-1/2 grid grid-cols-2 gap-[6%] mx-auto">
       
       {/* Card 1 */}
-      <div className="bg-white rounded-2xl shadow-sm p-[5%] transform transition-all duration-500 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+      <div className="bg-white rounded-2xl shadow-sm p-[6%] transform transition-all duration-500 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
         <div>
           <Ruler
             size={50}
@@ -35,17 +35,17 @@ export default function Homedetailpage() {
           />
         </div>
         <div className="my-[3%]">
-          <h3 className="text-[140%] font-semibold text-[#063231] font-primary">
+          <h3 className="text-[1.5vw] font-semibold text-[#063231] font-primary">
             Local Knowledge
           </h3>
-          <p className="text-gray-600 text-[95%] mt-[2%] font-secondary leading-relaxed">
+          <p className="text-gray-600 text-[1vw] mt-[2%] font-secondary leading-relaxed">
             We understand local soil, weather, and construction needs — making every structure stronger and safer.
           </p>
         </div>
       </div>
 
       {/* Card 2 */}
-      <div className="bg-white rounded-2xl shadow-sm p-[5%] transform transition-all duration-500 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+      <div className="bg-white rounded-2xl shadow-sm p-[6%] transform transition-all duration-500 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
         <div>
           <Users
             size={50}
@@ -54,17 +54,17 @@ export default function Homedetailpage() {
           />
         </div>
         <div className="my-[3%]">
-          <h3 className="text-[140%] font-semibold text-[#063231] font-primary">
+          <h3 className="text-[1.5vw] font-semibold text-[#063231] font-primary">
             Expert Team
           </h3>
-          <p className="text-gray-600 text-[95%] mt-[2%] font-secondary leading-relaxed">
+          <p className="text-gray-600 text-[1vw] mt-[2%] font-secondary leading-relaxed">
             From engineers to masons, our team works with full responsibility and care.
           </p>
         </div>
       </div>
 
       {/* Card 3 */}
-      <div className="bg-white rounded-2xl shadow-sm p-[5%] transform transition-all duration-500 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+      <div className="bg-white rounded-2xl shadow-sm p-[6%] transform transition-all duration-500 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
         <div>
           <Lightbulb
             size={50}
@@ -73,17 +73,17 @@ export default function Homedetailpage() {
           />
         </div>
         <div className="my-[3%]">
-          <h3 className="text-[140%] font-semibold text-[#063231] font-primary">
+          <h3 className="text-[1.5vw] font-semibold text-[#063231] font-primary">
             Smart Designs
           </h3>
-          <p className="text-gray-600 text-[95%] mt-[2%] font-secondary leading-relaxed">
+          <p className="text-gray-600 text-[1vw] mt-[2%] font-secondary leading-relaxed">
             We guide you with practical and cost-effective plans that suit your lifestyle.
           </p>
         </div>
       </div>
 
       {/* Card 4 */}
-      <div className="bg-white rounded-2xl shadow-sm p-[5%] transform transition-all duration-500 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+      <div className="bg-white rounded-2xl shadow-sm p-[6%] transform transition-all duration-500 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
         <div>
           <MessageCircle
             size={50}
@@ -92,10 +92,10 @@ export default function Homedetailpage() {
           />
         </div>
         <div className="my-[3%]">
-          <h3 className="text-[140%] font-semibold text-[#063231] font-primary">
+          <h3 className="text-[1.5vw] font-semibold text-[#063231] font-primary">
             Client Focus
           </h3>
-          <p className="text-gray-600 text-[95%] mt-[2%] font-secondary leading-relaxed">
+          <p className="text-gray-600 text-[1vw] mt-[2%] font-secondary leading-relaxed">
             Your satisfaction matters the most. We communicate clearly and complete the work exactly as promised.
           </p>
         </div>
@@ -104,20 +104,21 @@ export default function Homedetailpage() {
     </div>
   </div>
 </div>
+{/* ✅ Desktop responsive */}
 
- {/* ✅ laptop response */}
+ {/* ✅ laptop responsive */}
 <div className="hidden lg:block xl:hidden">
   <div className="mx-[3%] flex items-start gap-[5%]">
     
     {/* Left Content */}
     <div className="w-1/2">
-      <p className="text-[80%] font-semibold text-green-700 uppercase mb-[1%] font-primary">
+      <p className="text-[1.2vw] font-semibold text-green-700 uppercase mb-[1%] font-primary">
         Why Choose Us
       </p>
-      <h2 className="text-[230%] font-bold text-[#063231] mb-[3%] font-primary leading-tight">
+      <h2 className="text-[3vw] font-bold text-[#063231] mb-[3%] font-primary leading-tight">
         What Sets Us<br />Apart
       </h2>
-      <p className="text-gray-600 text-[100%] leading-relaxed font-secondary">
+      <p className="text-gray-600 text-[1.4vw] leading-relaxed font-secondary">
         We're more than just builders — we’re your trusted local partner.
         From smart design to solid delivery, every detail is handled with
         care, precision, and pride.
@@ -128,7 +129,7 @@ export default function Homedetailpage() {
     <div className="w-1/2 grid grid-cols-2 gap-[6%] mx-auto">
       
       {/* Card 1 */}
-      <div className="bg-white rounded-2xl shadow-sm p-[5%] transform transition-all duration-500 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+      <div className="bg-white rounded-2xl shadow-sm p-[6%] transform transition-all duration-500 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
         <div>
           <Ruler
             size={40}
@@ -137,17 +138,17 @@ export default function Homedetailpage() {
           />
         </div>
         <div className="my-[3%]">
-          <h3 className="text-[100%] font-semibold text-[#063231] font-primary">
+          <h3 className="text-[1.5vw] font-semibold text-[#063231] font-primary">
             Local Knowledge
           </h3>
-          <p className="text-gray-600 text-[80%] mt-[2%] font-secondary leading-relaxed">
+          <p className="text-gray-600 text-[1.2vw] mt-[2%] font-secondary leading-relaxed">
             We understand local soil, weather, and construction needs — making every structure stronger and safer.
           </p>
         </div>
       </div>
 
       {/* Card 2 */}
-      <div className="bg-white rounded-2xl shadow-sm p-[5%] transform transition-all duration-500 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+      <div className="bg-white rounded-2xl shadow-sm p-[6%] transform transition-all duration-500 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
         <div>
           <Users
             size={40}
@@ -156,17 +157,17 @@ export default function Homedetailpage() {
           />
         </div>
         <div className="my-[3%]">
-          <h3 className="text-[100%] font-semibold text-[#063231] font-primary">
+          <h3 className="text-[1.5vw] font-semibold text-[#063231] font-primary">
             Expert Team
           </h3>
-          <p className="text-gray-600 text-[80%] mt-[2%] font-secondary leading-relaxed">
+          <p className="text-gray-600 text-[1.2vw] mt-[2%] font-secondary leading-relaxed">
             From engineers to masons, our team works with full responsibility and care.
           </p>
         </div>
       </div>
 
       {/* Card 3 */}
-      <div className="bg-white rounded-2xl shadow-sm p-[5%] transform transition-all duration-500 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+      <div className="bg-white rounded-2xl shadow-sm p-[6%] transform transition-all duration-500 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
         <div>
           <Lightbulb
             size={40}
@@ -175,17 +176,17 @@ export default function Homedetailpage() {
           />
         </div>
         <div className="my-[3%]">
-          <h3 className="text-[100%] font-semibold text-[#063231] font-primary">
+          <h3 className="text-[1.5vw] font-semibold text-[#063231] font-primary">
             Smart Designs
           </h3>
-          <p className="text-gray-600 text-[80%] mt-[2%] font-secondary leading-relaxed">
+          <p className="text-gray-600 text-[1.2vw] mt-[2%] font-secondary leading-relaxed">
             We guide you with practical and cost-effective plans that suit your lifestyle.
           </p>
         </div>
       </div>
 
       {/* Card 4 */}
-      <div className="bg-white rounded-2xl shadow-sm p-[5%] transform transition-all duration-500 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+      <div className="bg-white rounded-2xl shadow-sm p-[6%] transform transition-all duration-500 ease-in-out hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
         <div>
           <MessageCircle
             size={40}
@@ -194,10 +195,10 @@ export default function Homedetailpage() {
           />
         </div>
         <div className="my-[3%]">
-          <h3 className="text-[100%] font-semibold text-[#063231] font-primary">
+          <h3 className="text-[1.5vw] font-semibold text-[#063231] font-primary">
             Client Focus
           </h3>
-          <p className="text-gray-600 text-[80%] mt-[2%] font-secondary leading-relaxed">
+          <p className="text-gray-600 text-[1.2vw] mt-[2%] font-secondary leading-relaxed">
             Your satisfaction matters the most. We communicate clearly and complete the work exactly as promised.
           </p>
         </div>
@@ -206,12 +207,13 @@ export default function Homedetailpage() {
     </div>
   </div>
 </div>
+{/* ✅ laptop responsive */}
 
 
  
 
 
-     {/* mobile response */}
+     {/* mobile responsive */}
 <div className="block sm:hidden">
   {/* Heading */}
   <div className="mb-12">
@@ -296,7 +298,7 @@ export default function Homedetailpage() {
 
 
 
-      {/* tab response */}
+      {/* tab responsive */}
 <div className="hidden sm:block lg:hidden">
   {/* Heading */}
   <div className="mb-12">
