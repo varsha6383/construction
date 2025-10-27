@@ -25,7 +25,7 @@ export default function Navbar() {
   return (
     <div>
      
-      {/* 1️⃣ DESKTOP RESPONSE */}
+      {/* 1️⃣ DESKTOPRESPONSIVE*/}
       
       <div className="hidden xl:block bg-transparent absolute w-full z-50">
         <div className="max-w-7xl mx-auto px-[5%] py-5 flex justify-between items-center">
@@ -62,10 +62,10 @@ export default function Navbar() {
           </Link>
         </div>
       </div>
-      {/* 1️⃣ DESKTOP RESPONSE */}
+      {/* 1️⃣ DESKTOPRESPONSIVE*/}
 
      
-      {/* 2️⃣ LAPTOP RESPONSE */}
+      {/* 2️⃣ LAPTOPRESPONSIVE*/}
       
       <div className="hidden lg:block xl:hidden bg-transparent absolute w-full z-50">
         <div className="max-w-6xl mx-auto px-[8%] py-4 flex justify-between items-center">
@@ -99,16 +99,16 @@ export default function Navbar() {
           </Link>
         </div>
       </div>
-      {/* 2️⃣ LAPTOP RESPONSE */}
+      {/* 2️⃣ LAPTOPRESPONSIVE*/}
 
      
-      {/* 3️⃣ TABLET RESPONSE   */}
+      {/* 3️⃣ TABLETRESPONSIVE  */}
      
       <div className="hidden sm:block lg:hidden bg-transparent absolute w-full z-50">
         <div className="px-[8%] py-4 flex justify-between items-center">
           <Link href="/" onClick={closeMenu}>
 
-            <Image src="/sri_logo.png" alt="sri velan" width={100} height={300} />
+            <Image src="/sri_logo.png" alt="sri velan" width={120} height={300} />
       
           </Link>
 
@@ -145,7 +145,7 @@ export default function Navbar() {
               transition={{ duration: 0.4 }}
               className="bg-[#305658] mx-4 rounded-2xl shadow-lg"
             >
-              <ul className="flex flex-col items-center space-y-5 text-[100%] py-6 text-white text-lg font-sencondary">
+              <ul className="flex flex-col items-center space-y-5 text-[3vw] py-6 text-white text-lg font-sencondary">
                 {navItems.map((item) => (
                   <li key={item.path}>
                     <Link
@@ -162,7 +162,7 @@ export default function Navbar() {
                   </li>
                 ))}
                 <Link href="/contact" onClick={closeMenu}>
-                  <button className="bg-lime-400 cursor-pointer text-gray-900 font-semibold px-5 py-2 rounded-full hover:bg-lime-500 transition font-c2a">
+                  <button className="bg-lime-400 cursor-pointer text-gray-900  font-semibold px-5 py-2 rounded-full hover:bg-lime-500 transition font-c2a">
                     GET IN TOUCH
                   </button>
                 </Link>
@@ -172,8 +172,9 @@ export default function Navbar() {
         </AnimatePresence>
       </div>
 
+      {/* 3️⃣ TABLETRESPONSIVE  */}
      
-      {/* 4️⃣ MOBILE RESPONSE    */}
+      {/* 4️⃣ MOBILERESPONSIVE   */}
      
       <div className="sm:hidden absolute w-full z-50">
         <div className="px-[8%] py-3 flex justify-between items-center">
@@ -216,7 +217,7 @@ export default function Navbar() {
               transition={{ duration: 0.4 }}
               className="bg-[#305658] mx-3 rounded-2xl shadow-lg"
             >
-              <ul className="flex flex-col items-center space-y-4 py-5 text-[100%] text-white text-base font-sencondary">
+              <ul className="flex flex-col items-center space-y-4 py-5 text-[4vw] text-white text-base font-sencondary">
                 {navItems.map((item) => (
                   <li key={item.path}>
                     <Link
@@ -242,6 +243,7 @@ export default function Navbar() {
           )}
         </AnimatePresence>
       </div>
+    {/* 4️⃣ MOBILERESPONSIVE   */}
     </div>
   );
 }

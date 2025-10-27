@@ -147,9 +147,62 @@ export default function Homeservicepage() {
  {/* ✅ laptop responsive*/}
 
 
-     
 
-      {/* ✅ Mobile responsive */}
+      {/* ✅ Tablet responsive */}
+<div className="hidden sm:block lg:hidden mt-[8%] pt-[8%] pb-[35%]">
+  {/* Section Header */}
+  <div className="space-y-[2%] px-[5%] text-center">
+    <h1 className="text-[#063231] text-[2.5vw] font-primary">WHAT WE DO</h1>
+    <h1 className="text-[#063231] font-bold text-[5vw] font-primary">
+      Our Construction Services
+    </h1>
+  </div>
+
+  {/* Service Cards */}
+  <div className="container mx-auto px-[5%] mt-[8%]">
+    <div className="grid grid-cols-1 gap-[8%]">
+      {services.map((service) => (
+        <div key={service.id} className="relative flex flex-col items-center">
+          {/* Image */}
+          <div className="w-full h-[40vh]">
+            <Image
+              src={service.image}
+              alt={service.title}
+              width={900}
+              height={900}
+              className="w-full h-full object-cover rounded-bl-[30%_25px] rounded-br-[30%_25px] rounded-t-3xl"
+            />
+          </div>
+
+          {/* Card Content */}
+          <div className="bg-white w-[70%] -mt-[8%] rounded-2xl shadow-lg text-center pt-[6%] pb-[6%] px-[6%] flex flex-col justify-between min-h-[30vh]">
+            <div className="flex flex-col items-center flex-grow">
+              <div className="text-[6vw] mb-[3%]">{service.icon}</div>
+              <h3 className="text-[#063231] font-semibold text-[3.5vw]  mb-[4%] font-primary">
+                {service.title}
+              </h3>
+              <p className="text-gray-600 text-[2.5vw] px-[4%] font-secondary leading-relaxed flex-grow">
+                {service.description}
+              </p>
+            </div>
+
+            {/* ENQUIRE NOW button */}
+            <Link
+              href="/contact"
+              className="text-[#063231] cursor-pointer border-t border-gray-200 pt-[5%] mt-[3%] font-semibold hover:underline font-c2a  text-[2vw]"
+            >
+              ENQUIRE NOW
+            </Link>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</div>
+  {/* ✅ Tablet responsive */}
+
+
+ {/* ✅ Mobile responsive */}
 <div className="block sm:hidden pt-[10%] mt-[10%] pb-[35%]">
   {/* Section Header */}
   <div className="space-y-[2%] px-[5%] text-center">
@@ -200,60 +253,7 @@ export default function Homeservicepage() {
     </div>
   </div>
 </div>
-
-
-      {/* ✅ Tablet view (percentage-based version) */}
-<div className="hidden sm:block lg:hidden mt-[8%] pt-[8%] pb-[35%]">
-  {/* Section Header */}
-  <div className="space-y-[2%] px-[5%] text-center">
-    <h1 className="text-[#063231] text-[90%] font-primary">WHAT WE DO</h1>
-    <h1 className="text-[#063231] font-bold text-[230%] font-primary">
-      Our Construction Services
-    </h1>
-  </div>
-
-  {/* Service Cards */}
-  <div className="container mx-auto px-[5%] mt-[8%]">
-    <div className="grid grid-cols-1 gap-[8%]">
-      {services.map((service) => (
-        <div key={service.id} className="relative flex flex-col items-center">
-          {/* Image */}
-          <div className="w-full h-[40vh]">
-            <Image
-              src={service.image}
-              alt={service.title}
-              width={900}
-              height={900}
-              className="w-full h-full object-cover rounded-bl-[30%_25px] rounded-br-[30%_25px] rounded-t-3xl"
-            />
-          </div>
-
-          {/* Card Content */}
-          <div className="bg-white w-[70%] -mt-[8%] rounded-2xl shadow-lg text-center pt-[8%] pb-[8%] px-[6%] flex flex-col justify-between min-h-[30vh]">
-            <div className="flex flex-col items-center flex-grow">
-              <div className="text-[250%] mb-[3%]">{service.icon}</div>
-              <h3 className="text-[#063231] font-semibold  mb-[3%] font-primary">
-                {service.title}
-              </h3>
-              <p className="text-gray-600 text-[100%] px-[4%] font-secondary leading-relaxed flex-grow">
-                {service.description}
-              </p>
-            </div>
-
-            {/* ENQUIRE NOW button */}
-            <Link
-              href="/contact"
-              className="text-[#063231] cursor-pointer border-t border-gray-200 pt-[5%] mt-[3%] font-semibold hover:underline font-c2a  text-[100%]"
-            >
-              ENQUIRE NOW
-            </Link>
-          </div>
-        </div>
-      ))}
-    </div>
-  </div>
-</div>
-
+  {/* ✅ Mobile responsive */}
     </div>
   );
 }

@@ -87,6 +87,48 @@ function Homelandpage() {
 
       
 
+      
+
+      {/* Tablet response */}
+      <div className="hidden md:block lg:hidden">
+        <div className="relative">
+          <div className="h-[80%] bg-[#305658] bg-blend-multiply rounded-bl-[60%_80px] rounded-br-[60%_80px] w-full bg-cover bg-center bg-[url('https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg')]">
+            <div className="flex text-white items-center text-center gap-4 py-[15%] px-[12%] flex-col">
+              <p className="bg-[#607e7e]/70 backdrop-blur-xl px-[10%] py-1 rounded-full cursor-pointer font-c2a text-[1.5vw]">Home</p>
+              <p className="font-bold text-[5vw] font-primary">Building Your Dreams Into Reality</p>
+              <p className="font-secondary text-[2.5vw]">We take pride in turning your ideas into strong and beautiful homes. From planning to finishing, we handle every step with care and commitment.</p>
+              <div className="space-y-4 mt-3 flex flex-col w-full items-center">
+                <button className="bg-[#cbff54] hover:bg-lime-500 text-[2.5vw] text-[#305658] px-18 py-2 rounded-full cursor-pointer font-c2a">
+                  <Link href="/contact">Get a Quote</Link>
+                </button>
+                <button className="bg-[#607e7e]/70 backdrop-blur-xl border text-[2.5vw] border-white hover:border-dotted px-12 py-2 rounded-full cursor-pointer font-c2a">
+                  <Link href="/projects">View Our Projects</Link>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 absolute top-[90%] left-[10%] w-[80%] space-y-5 z-10 bg-white rounded-4xl shadow-gray-400 shadow-md">
+            <div>
+              <FaClock color="#033231" size={40} className="ml-8 bg-[#cbff54] rounded-full px-2" />
+              <h1 className="mt-3 ml-8 text-[3vw] text-[#063231] font-semibold font-primary">On Time Delivery</h1>
+              <h1 className="text-[2vw] ml-8 text-green-950 font-secondary">We complete every project on schedule with proper planning and dedicated manpower.​</h1>
+            </div>
+            <div>
+              <FaUsers color="#033231" size={40} className="ml-8 bg-[#cbff54] rounded-full px-2" />
+              <h1 className="mt-3 ml-8 text-[3vw] text-[#063231] font-semibold font-primary">Experienced Team</h1>
+              <h1 className="text-[2vw] ml-8 text-green-950 font-secondary">Our skilled team members ensure quality work in every stage of construction.​</h1>
+            </div>
+            <div>
+              <FaSuitcase color="#033231" size={40} className="ml-8 bg-[#cbff54] rounded-full px-2" />
+              <h1 className="mt-3 ml-8 text-[3vw] text-[#063231] font-semibold font-primary">Quality Materials</h1>
+              <h1 className="text-[2vw] ml-8 text-green-950 font-secondary">We use trusted and durable materials to build strong and long-lasting homes​</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Tablet response */}
+
       {/* Mobile response*/}
       <div className="block md:hidden">
         <div className="relative">
@@ -120,45 +162,7 @@ function Homelandpage() {
           </div>
         </div>
       </div>
-
-      {/* Tablet response */}
-      <div className="hidden md:block lg:hidden">
-        <div className="relative">
-          <div className="h-[80%] bg-[#305658] bg-blend-multiply rounded-bl-[60%_80px] rounded-br-[60%_80px] w-full bg-cover bg-center bg-[url('https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg')]">
-            <div className="flex text-white items-center text-center gap-4 py-[15%] px-[12%] flex-col">
-              <p className="bg-[#607e7e]/70 backdrop-blur-xl px-[10%] py-1 rounded-full cursor-pointer font-c2a text-sm">Home</p>
-              <p className="font-bold text-[200%] font-primary">Building Your Dreams Into Reality</p>
-              <p className="font-secondary text-[100%]">We take pride in turning your ideas into strong and beautiful homes. From planning to finishing, we handle every step with care and commitment.</p>
-              <div className="space-y-4 mt-3 flex flex-col w-full items-center">
-                <button className="bg-[#cbff54] hover:bg-lime-500 text-[#305658] px-12 py-2 rounded-full cursor-pointer font-c2a">
-                  <Link href="/contact">Get a Quote</Link>
-                </button>
-                <button className="bg-[#607e7e]/70 backdrop-blur-xl border border-white hover:border-dotted px-12 py-2 rounded-full cursor-pointer font-c2a">
-                  <Link href="/projects">View Our Projects</Link>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-6 absolute top-[90%] left-[10%] w-[80%] space-y-5 z-10 bg-white rounded-4xl shadow-gray-400 shadow-md">
-            <div>
-              <FaClock color="#033231" size={35} className="ml-8 bg-[#cbff54] rounded-full px-2" />
-              <h1 className="mt-3 ml-8 text-[130%] text-[#063231] font-semibold font-primary">On Time Delivery</h1>
-              <h1 className="text-[90%] ml-8 text-green-950 font-secondary">We complete every project on schedule with proper planning and dedicated manpower.​</h1>
-            </div>
-            <div>
-              <FaUsers color="#033231" size={35} className="ml-8 bg-[#cbff54] rounded-full px-2" />
-              <h1 className="mt-3 ml-8 text-[130%] text-[#063231] font-semibold font-primary">Experienced Team</h1>
-              <h1 className="text-[90%] ml-8 text-green-950 font-secondary">Our skilled team members ensure quality work in every stage of construction.​</h1>
-            </div>
-            <div>
-              <FaSuitcase color="#033231" size={35} className="ml-8 bg-[#cbff54] rounded-full px-2" />
-              <h1 className="mt-3 ml-8 text-[130%] text-[#063231] font-semibold font-primary">Quality Materials</h1>
-              <h1 className="text-[90%] ml-8 text-green-950 font-secondary">We use trusted and durable materials to build strong and long-lasting homes​</h1>
-            </div>
-          </div>
-        </div>
-      </div>
+      {/* Mobile response*/}
     </div>
   )
 }
