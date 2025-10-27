@@ -255,67 +255,70 @@ export default function Hometrustpage() {
 
       {/* ✅ Mobile */}
       <div className="block sm:hidden">
-        <div className="bg-white py-[10%] px-[6%]">
-          <div className="w-full">
-            <p className="text-[#1b4343] font-semibold text-[90%] mb-[2%] font-primary tracking-wide uppercase">
-              PROVEN & TRUSTED
-            </p>
+  <div className="bg-white py-[10%] px-[6%]">
+    {/* Left Content */}
+    <div className="w-full">
+      <p className="text-[#1b4343] font-semibold text-[3.5vw] mb-[2%] font-primary tracking-wide uppercase">
+        PROVEN & TRUSTED
+      </p>
 
-            <h2 className="text-[180%] font-bold text-[#063231] mb-[4%] leading-snug font-primary">
-              Backed by Results, <br /> Built on Relationships
-            </h2>
+      <h2 className="text-[7vw] font-bold text-[#063231] mb-[4%] leading-snug font-primary">
+        Backed by Results, <br /> Built on Relationships
+      </h2>
 
-            <p className="text-[#1b4343] mb-[6%] text-[105%] leading-relaxed font-secondary">
-              Brikly has become a name homeowners trust. Whether it’s new
-              construction or custom renovation, you’re in good company when you
-              build with Brikly.
-            </p>
+      <p className="text-[#1b4343] mb-[6%] text-[4vw] leading-relaxed font-secondary">
+        Brikly has become a name homeowners trust. Whether it’s new construction 
+        or custom renovation, you’re in good company when you build with Brikly. 
+        Our strong partnerships are a reflection of the confidence our clients 
+        place in us — project after project.
+      </p>
 
-            <div ref={mobileRef} className="flex flex-col gap-[6%]">
+      {/* Stats */}
+      <div ref={mobileRef} className="flex flex-col gap-[6%]">
               <div>
-                <h3 className="text-[150%] my-[3%] font-bold text-[#063231] font-primary">
+                <h3 className="text-[7vw] my-[3%] font-bold text-[#063231] font-primary">
                   {mobileStart ? <CountUp start={0} end={100} duration={2} /> : "0"}+
                 </h3>
-                <p className="font-bold text-[110%] text-[#1b4343] font-primary">
+                <p className="font-bold text-[4.5vw] text-[#1b4343] font-primary">
                   Satisfied Clients
                 </p>
-                <p className="text-[#1b4343] text-[95%] leading-relaxed pt-[2%] font-secondary">
+                <p className="text-[#1b4343] text-[4vw] leading-relaxed pt-[2%] font-secondary">
                   Over 100 projects built with trust and excellence.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-[150%] my-[3%] font-bold text-[#063231] font-primary">
+                <h3 className="text-[7vw] my-[3%] font-bold text-[#063231] font-primary">
                   {mobileStart ? <CountUp start={0} end={10} duration={2} /> : "0"} Yrs.
                 </h3>
-                <p className="font-bold text-[110%] text-[#1b4343] font-primary">
+                <p className="font-bold text-[4.5vw] text-[#1b4343] font-primary">
                   Structural Warranty
                 </p>
-                <p className="text-[#1b4343] text-[95%] leading-relaxed pt-[2%] font-secondary">
+                <p className="text-[#1b4343] text-[4vw] leading-relaxed pt-[2%] font-secondary">
                   Structural coverage & quality you can count on.
                 </p>
               </div>
             </div>
           </div>
 
-          {/* Right Image */}
-          <div className="w-full relative mt-[10%]">
-            <div className="rounded-2xl mx-[5%] overflow-hidden shadow-lg">
-              <Image
-                src="https://cdn.pixabay.com/photo/2023/09/19/15/42/ai-generated-8262931_1280.jpg"
-                alt="Happy family in front of home"
-                width={600}
-                height={700}
-                className="object-cover w-full h-auto"
-              />
-            </div>
-
-            <div className="absolute bottom-4 left-0 bg-lime-400 text-[#1b4343] font-semibold px-[4%] py-[2%] rounded-lg shadow-md font-secondary text-[95%]">
-              Long-Term <br /> Reliability
-            </div>
-          </div>
-        </div>
+    {/* Right Image */}
+    <div className="w-full relative mt-[10%]">
+      <div className="rounded-2xl mx-[5%] overflow-hidden shadow-lg">
+        <Image
+          src="https://cdn.pixabay.com/photo/2023/09/19/15/42/ai-generated-8262931_1280.jpg"
+          alt="Happy family in front of home"
+          width={600}
+          height={700}
+          className="object-cover w-full h-auto"
+        />
       </div>
+
+      <div className="absolute bottom-4 left-0 bg-lime-400 text-[#1b4343] font-semibold px-[4%] py-[2%] rounded-lg shadow-md font-secondary text-[4vw]">
+        Long-Term <br /> Reliability
+      </div>
+    </div>
+  </div>
+</div>
       {/* ✅ Mobile End */}
     </div>
   );

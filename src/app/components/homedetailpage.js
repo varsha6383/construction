@@ -321,104 +321,85 @@ export default function Homedetailpage() {
 
         {/* mobile responsive */}
       <div className="block sm:hidden">
-        {/* Heading */}
-        <div className="mb-12">
-          <p className="text-[90%] font-semibold text-green-700 uppercase mb-2 font-primary">
-            Why Choose Us
-          </p>
-          <h2 className="text-[250%] font-bold text-[#063231] mb-3 font-primary">
-            What Sets Us Apart
-          </h2>
-          <p className="text-gray-600 text-[100%] font-secondary">
-            We're more than just builders — we’re your trusted local partner.
-            From smart design to solid delivery, every detail is handled with
-            care, precision, and pride.
-          </p>
-        </div>
+  {/* Heading */}
+  <div className="mb-12">
+    <p className="text-[3.5vw] font-semibold text-green-700 uppercase mb-2 font-primary">
+      Why Choose Us
+    </p>
+    <h2 className="text-[9vw] font-bold text-[#063231] mb-3 font-primary">
+      What Sets Us Apart
+    </h2>
+    <p className="text-gray-600 text-[4vw] font-secondary">
+      We're more than just builders — we’re your trusted local partner.
+      From smart design to solid delivery, every detail is handled with
+      care, precision, and pride.
+    </p>
+  </div>
 
-        {/* Feature Grid */}
-        <div className="grid grid-cols-1 gap-8">
-          {/* Card 1 */}
-          <div className="bg-white rounded-2xl shadow-sm p-6">
-            <div>
-              <Ruler
-                size={40}
-                color="#cbff54"
-                className="bg-[#0d2b2b] p-3 rounded-full"
-              />
-            </div>
-            <div className="my-3">
-              <h3 className="text-[200%] font-semibold text-[#063231] font-primary">
-                Local Knowledge
-              </h3>
-              <p className="text-gray-600 text-[100%] mt-1 font-secondary">
-                We understand local soil, weather, and construction needs —
-                making every structure stronger and safer
-              </p>
-            </div>
-          </div>
-
-          {/* Card 2 */}
-          <div className="bg-white rounded-2xl shadow-sm p-6">
-            <div>
-              <Users
-                size={40}
-                color="#cbff54"
-                className="bg-[#0d2b2b] p-3 rounded-full"
-              />
-            </div>
-            <div className="my-3">
-              <h3 className="text-[200%] font-semibold text-[#063231] font-primary">
-                Expert Team
-              </h3>
-              <p className="text-gray-600 text-[100%] mt-1 font-secondary">
-                From engineers to masons, our team works with full
-                responsibility and care
-              </p>
-            </div>
-          </div>
-
-          {/* Card 3 */}
-          <div className="bg-white rounded-2xl shadow-sm p-6">
-            <div>
-              <Lightbulb
-                size={40}
-                color="#cbff54"
-                className="bg-[#0d2b2b] p-3 rounded-full"
-              />
-            </div>
-            <div className="my-3">
-              <h3 className="text-[200%] font-semibold text-[#063231] font-primary">
-                Smart Designs
-              </h3>
-              <p className="text-gray-600 text-[100%] mt-1 font-secondary">
-                We guide you with practical and cost-effective plans that suit
-                your lifestyle.
-              </p>
-            </div>
-          </div>
-
-          {/* Card 4 */}
-          <div className="bg-white rounded-2xl shadow-sm p-6">
-            <div>
-              <MessageCircle
-                size={40}
-                color="#cbff54"
-                className="bg-[#0d2b2b] p-3 rounded-full"
-              />
-            </div>
-            <div className="my-3">
-              <h3 className="text-[200%] font-semibold text-[#063231] font-primary">
-                Client Focus
-              </h3>
-              <p className="text-gray-600 text-[100%] mt-1 font-secondary">
-                Your satisfaction matters the most. We communicate clearly and
-                complete the work exactly as promised
-              </p>
-            </div>
-          </div>
-        </div>
+  {/* Feature Grid */}
+  <div className="grid grid-cols-1 gap-8">
+    {/* Card 1 */}
+    <div className="bg-white rounded-2xl shadow-sm p-6">
+      <div>
+        <Ruler size={40} color="#cbff54" className="bg-[#0d2b2b] p-3 rounded-full" />
       </div>
+      <div className="my-3">
+        <h3 className="text-[8vw] font-semibold text-[#063231] font-primary">
+          Local Knowledge
+        </h3>
+        <p className="text-gray-600 text-[4vw] mt-1 font-secondary">
+          We understand local soil, weather, and construction needs — making every structure stronger and safer
+        </p>
+      </div>
+    </div>
+
+    {/* Card 2 */}
+    <div className="bg-white rounded-2xl shadow-sm p-6">
+      <div>
+        <Users size={40} color="#cbff54" className="bg-[#0d2b2b] p-3 rounded-full" />
+      </div>
+      <div className="my-3">
+        <h3 className="text-[8vw] font-semibold text-[#063231] font-primary">
+          Expert Team
+        </h3>
+        <p className="text-gray-600 text-[4vw] mt-1 font-secondary">
+          From engineers to masons, our team works with full responsibility and care
+        </p>
+      </div>
+    </div>
+
+    {/* Card 3 */}
+    <div className="bg-white rounded-2xl shadow-sm p-6">
+      <div>
+        <Lightbulb size={40} color="#cbff54" className="bg-[#0d2b2b] p-3 rounded-full" />
+      </div>
+      <div className="my-3">
+        <h3 className="text-[8vw] font-semibold text-[#063231] font-primary">
+          Smart Designs
+        </h3>
+        <p className="text-gray-600 text-[4vw] mt-1 font-secondary">
+          We guide you with practical and cost-effective plans that suit your lifestyle.
+        </p>
+      </div>
+    </div>
+
+    {/* Card 4 */}
+    <div className="bg-white rounded-2xl shadow-sm p-6">
+      <div>
+        <MessageCircle size={40} color="#cbff54" className="bg-[#0d2b2b] p-3 rounded-full" />
+      </div>
+      <div className="my-3">
+        <h3 className="text-[8vw] font-semibold text-[#063231] font-primary">
+          Client Focus
+          
+        </h3>
+        <p className="text-gray-600 text-[4vw] mt-1 font-secondary">
+          Your satisfaction matters the most. We communicate clearly and complete the work exactly as promised
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
       {/* mobile responsive */}
     </div>
   );

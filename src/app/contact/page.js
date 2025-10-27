@@ -308,18 +308,18 @@ export default function Contact() {
       <div className="sm:hidden block bg-white">
         <div className="bg-[#218686] bg-blend-multiply rounded-bl-[80%_100px] rounded-br-[80%_100px] w-full h-[40vh] bg-cover bg-center bg-[url('https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg')]">
           <div className="flex text-white items-center text-center gap-4 py-[20%] px-[6%] flex-col">
-            <p className="bg-[#407d7d]/60  px-3 font-semibold py-1 rounded-full cursor-pointer font-c2a">CONTACT</p>
-            <p className="font-bold text-[180%] font-primary ">Get in Touch with Sri Velan Constructions</p>
-            <p className="font-sencondary text-[100%] ">Reach out today to discuss your dream home or building project. We’re here to help with a free consultation.</p>
+            <p className="bg-[#407d7d]/60 text-[4vw] px-3 font-semibold py-1 rounded-full cursor-pointer font-c2a">CONTACT</p>
+            <p className="font-bold text-[7vw] font-primary ">Get in Touch with Sri Velan Constructions</p>
+            <p className="font-sencondary text-[4vw] ">Reach out today to discuss your dream home or building project. We’re here to help with a free consultation.</p>
           </div>
         </div>
 
         {/* Section */}
         <div className="grid grid-rows-1 h-full gap-10 items-center  px-[8%] py-10 bg-white">
           <div className="flex flex-col gap-5 ">
-            <p className="font-semibold text-[#305658] font-primary text-[100%]">We’re Here to Help</p>
-            <p className="font-bold text-[180%] font-primary text-[#063231]">Let’s Talk About Your Next Build!</p>
-            <p className="font-sencondary text-[110%] text-[#305658]">Whether you’re planning a new home or renovation, we’d love to hear your ideas.
+            <p className="font-semibold text-[#305658] font-primary text-[4vw]">We’re Here to Help</p>
+            <p className="font-bold text-[7vw] font-primary text-[#063231]">Let’s Talk About Your Next Build!</p>
+            <p className="font-sencondary text-[4vw] text-[#305658]">Whether you’re planning a new home or renovation, we’d love to hear your ideas.
               Fill out the form, call us, or visit our office in Kambainallore, Dharmapuri — let’s start building something great together.</p>
 
             <div className="flex items-center gap-2">
@@ -327,7 +327,7 @@ export default function Contact() {
 
               <div className="flex flex-col">
                 <Image src="https://cdn.pixabay.com/photo/2022/06/30/03/44/five-stars-7292866_640.png" alt="Image is missing" width={100} height={50} className="h-[50px]"></Image>
-                <p className="font-sencondary text-[100%] text-[#305658]">260+ reviews (4.95 of 5)</p>
+                <p className="font-sencondary text-[4vw] text-[#305658]">260+ reviews (4.95 of 5)</p>
               </div>
             </div>
           </div>
@@ -338,25 +338,26 @@ export default function Contact() {
 
         {/* Section */}
         <div className="flex  flex-col text-center h-full px-[8%] py-[8%] bg-[#f6f7f7]">
-          <p className=" font-semibold text-[90%] font-primary text-[#305658]">WE ARE HERE</p>
-          <p className="text-[180%] font-bold font-primary text-[#063231]">Find us on Google</p>
+          <p className=" font-semibold text-[4vw] font-primary text-[#305658]">WE ARE HERE</p>
+          <p className="text-[7vw] font-bold font-primary text-[#063231]">Find us on Google</p>
           <div className="grid grid-cols-1 grid-rows-6 gap-8 items-center w-full h-full pt-[8%]">
             <div className="flex flex-col gap-3 h-full bg-white shadow-lg rounded-2xl items-center text-center p-10">
 <PiMapPinLineFill size={44} color="#cbff54" className="bg-[#063231] rounded-full p-2" />     
-              <p className="font-bold text-[180%] font-primary text-[#063231]">Address</p>
-              <p className="font-sencondary text-[100%] text-[#305658]">Kambainallore, Dharmapuri, Tamil Nadu 635202</p>
+              <p className="font-bold text-[6.5vw] font-primary text-[#063231]">Address</p>
+              <p className="font-sencondary text-[4vw] text-[#305658]">Kambainallore, Dharmapuri, Tamil Nadu 635202</p>
             </div>
             <Link href="https://wa.me/918248501872" target="_blank" className="flex  h-full flex-col gap-3 bg-white shadow-lg rounded-2xl items-center text-center p-10">
               <div className="flex flex-col gap-3 items-center text-center ">
-<FaWhatsapp size={44} color="#cbff54" className="bg-[#063231] rounded-full p-1.5"/>                <p className="font-bold text-[180%] font-primary text-[#063231]">Whatsapp</p>
-                <p className="font-sencondary text-[100%] text-[#305658]">+91 82485 01872</p>
+<FaWhatsapp size={44} color="#cbff54" className="bg-[#063231] rounded-full p-1.5"/>               
+ <p className="font-bold text-[6.5vw] font-primary text-[#063231]">Whatsapp</p>
+                <p className="font-sencondary text-[4vw] text-[#305658]">+91 82485 01872</p>
               </div>
             </Link>
 
             <div className="flex flex-col gap-3 h-full bg-white shadow-lg rounded-2xl items-center text-center p-10">
 <IoMdMail size={44} color="#cbff54" className="bg-[#063231] rounded-full p-2"/>         
-              <p className="font-bold text-[180%] font-primary text-[#063231]">Send Email</p>
-              <p className="font-sencondary text-[100%] text-[#305658]">
+              <p className="font-bold text-[6.5vw] font-primary text-[#063231]">Send Email</p>
+              <p className="font-sencondary text-[4vw] text-[#305658]">
                 <Link
                   href="https://mail.google.com/mail/u/0/?to=srivelamconstruction@gmail.com&su=Enquiry+Regarding+Construction+Services&fs=1&tf=cm"
                   target="_blank"
@@ -368,15 +369,15 @@ export default function Contact() {
 
             <div className="flex flex-col gap-3 bg-white shadow-lg h-full rounded-2xl items-center text-center p-10">
   <IoCall size={44} color="#cbff54" className="bg-[#063231] rounded-full p-2" />
-  <p className="font-bold text-[180%] font-primary text-[#063231]">Call us</p>
-  <Link href="tel:+918248501872" className="font-secondary text-[110%] text-[#305658] hover:underline">
+  <p className="font-bold text-[6.5vw] font-primary text-[#063231]">Call us</p>
+  <Link href="tel:+918248501872" className="font-secondary text-[4vw] text-[#305658] hover:underline">
     +91 82485 01872
   </Link>
 </div>
 
             <div className="flex flex-col gap-3 h-full bg-white shadow-lg rounded-2xl items-center text-center p-10">
 <TbLocation size={44} color="#cbff54" className="bg-[#063231] rounded-full p-2"/>      
-              <p className="font-bold text-[180%] font-primary text-[#063231]">Follow us</p>
+              <p className="font-bold text-[6.5vw] font-primary text-[#063231]">Follow us</p>
               <div className="flex gap-5 ">
                 <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-facebook-icon lucide-facebook bg-[#063231] rounded-full p-1"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
                 <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-instagram-icon lucide-instagram bg-[#063231] rounded-full p-1"><rect width="20" height="20" x="2" y="2" rx="5" ry="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" x2="17.51" y1="6.5" y2="6.5" /></svg>
@@ -387,9 +388,9 @@ export default function Contact() {
             </div>
             <div className="flex flex-col h-full gap-3  bg-white shadow-lg rounded-2xl items-center text-center p-10">
 <IoTimeOutline size={44} color="#cbff54" className="bg-[#063231] rounded-full p-1"/>    
-              <p className="font-bold text-[180%] font-primary text-[#063231]">Business Hours</p>
-              <div>  <p className="font-sencondary text-[100%] text-[#305658]">Monday – Saturday</p>
-                <p className="font-sencondary text-[100%] text-[#305658]">9:00 AM – 6:00 PM</p>
+              <p className="font-bold text-[6.5vw] font-primary text-[#063231]">Business Hours</p>
+              <div>  <p className="font-sencondary text-[4vw] text-[#305658]">Monday – Saturday</p>
+                <p className="font-sencondary text-[4vw] text-[#305658]">9:00 AM – 6:00 PM</p>
               </div>
             </div>
           </div>

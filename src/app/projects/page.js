@@ -476,17 +476,12 @@ export default function Project() {
       <div className="sm:hidden block  bg-white mb-[5%] ">
         <div className="bg-[#218686] bg-blend-multiply flex items-center justify-center  rounded-bl-[80%_100px] rounded-br-[80%_100px] w-full h-[45vh] bg-cover bg-center bg-[url('https://images.pexels.com/photos/1571457/pexels-photo-1571457.jpeg')]">
           <div className="flex text-white items-center text-center gap-4 py-[10%] px-[8%] flex-col">
-            <p className="bg-[#407d7d]/60  px-3  font-semibold py-1 rounded-full cursor-pointer font-c2a">
+            <p className="bg-[#407d7d]/60  px-3 text-[4vw] font-semibold py-1 rounded-full cursor-pointer font-c2a">
               PROJECTS
             </p>
-            <p className="font-bold text-[180%] font-primary text-white">
-              From Design to Reality
-            </p>
-            <p className="font-sencondary text-[100%] text-white">
-              At Sri Velan Constructions, we turn every idea into a strong
-              foundation of trust, quality, and craftsmanship. Explore our proud
-              works — where each project speaks of dedication, precision, and
-              the promise to last for generations.
+            <p className="font-bold text-[7vw] font-primary text-white">From Design to Reality</p>
+            <p className="font-sencondary text-[4vw] text-white">
+              At Sri Velan Constructions, we turn every idea into a strong foundation of trust, quality, and craftsmanship. Explore our proud works — where each project speaks of dedication, precision, and the promise to last for generations.
             </p>
           </div>
         </div>
@@ -494,10 +489,8 @@ export default function Project() {
         {/* Section */}
         <div>
           <div className="flex flex-col text-center justify-center items-center px-[8%] my-20">
-            <p className="font-semibold font-primary text-[#305658] text-[110%]">
-              BUILT TO LAST
-            </p>
-            <p className="font-bold text-[150%] text-[#063231]  font-primary">
+            <p className="font-semibold font-primary text-[#305658] text-[4vw]">BUILT TO LAST</p>
+            <p className="font-bold text-[6vw] text-[#063231]  font-primary">
               Where Every Project Becomes a Landmark
             </p>
           </div>
@@ -508,20 +501,20 @@ export default function Project() {
                 key={cat}
                 onClick={() => setFilter(cat)}
                 className={`cursor-pointer font-bold mx-[5%] text-[#305658] items-center text-center text-[100%] tracking-wider shadow-xl py-4 rounded-xl transition-colors 
-        ${
-          filter === cat
-            ? "font-bold font-primary tracking-wider  bg-[#063231] text-[#cbff54]"
-            : "hover:bg-[#0f4544] font-primary bg-gray-200 hover:text-[#cbff54]"
-        }`}
+        ${filter === cat
+                    ? "font-bold font-primary tracking-wider  bg-[#063231] text-[#cbff54]"
+                    : "hover:bg-[#0f4544] font-primary bg-gray-200 hover:text-[#cbff54]"
+                  }`}
               >
                 {cat === "Completed"
                   ? "Completed Projects"
                   : cat === "Upcoming"
-                  ? "Upcoming Projects"
-                  : "All"}
+                    ? "Upcoming Projects"
+                    : "All"}
               </p>
             ))}
           </div>
+
 
           {/* Projects */}
           <div className="flex flex-col auto-rows-auto px-[8%] gap-5">
@@ -540,10 +533,7 @@ export default function Project() {
                       height={1080}
                       className="object-cover  h-full w-full mix-blend-multiply  rounded-4xl"
                     />
-                    <div className="absolute top-[45%] left-[25%] font-semibold font-sencondary text-black text-[150%]">
-                      {" "}
-                      Coming Soon.....
-                    </div>
+                    <div className="absolute top-[45%] left-[25%] font-semibold font-sencondary text-black text-[7vw]"> Coming Soon.....</div>
                   </div>
                 ) : (
                   <>
@@ -558,17 +548,11 @@ export default function Project() {
                       />
                     </div>
                     <div className="flex flex-col h-full gap-5 px-5">
-                      <p className="font-bold  font-primary text-[#063231] text-[150%]">
-                        {project.title}
-                      </p>
-                      <p className="font-sencondary text-[#305658] text-[110%] ">
-                        {project.desc}
-                      </p>
+                      <p className="font-bold  font-primary text-[#063231] text-[6vw]">{project.title}</p>
+                      <p className="font-sencondary text-[#305658] text-[4vw] ">{project.desc}</p>
                       {project.highlights.length > 0 && (
                         <>
-                          <p className="font-semibold text-[140%] text-[#063231] font-primary">
-                            Highlights
-                          </p>
+                          <p className="font-semibold text-[5vw] text-[#063231] font-primary">Highlights</p>
                           {project.highlights.map((item, i) => (
                             <div key={i} className="flex gap-2">
                               <svg
@@ -585,25 +569,19 @@ export default function Project() {
                               >
                                 <path d="m9 12 2 2 4-6" />
                               </svg>
-                              <p className="font-sencondary text-[#305658]">
-                                {item}
-                              </p>
+                              <p className="font-sencondary text-[4vw] text-[#305658]">{item}</p>
                             </div>
                           ))}
                         </>
                       )}
                     </div>
                     <hr />
-                    <p className="px-5 pb-3 text-gray-800 text-[100%] ">
-                      Type:{" "}
-                      <span className="text-[#063231] font-semibold">
-                        {project.type}
-                      </span>
-                    </p>
+                    <p className="px-5 pb-3 text-gray-800 text-[4.2vw] ">Type: <span className="text-[#063231] font-semibold">{project.type}</span></p>
                   </>
                 )}
               </div>
             ))}
+
           </div>
         </div>
       </div>

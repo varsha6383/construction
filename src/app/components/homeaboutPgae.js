@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      {/* destop response */}
+      {/* destop responsive */}
       <div className="hidden xl:block">
     <div className="flex flex-row items-center justify-center gap-10 mt-0 px-[8%] pt-[10%] bg-white">
       {/* Left: Images */}
@@ -71,9 +71,9 @@ export default function Home() {
       </div>
     </div>
     </div>
-     {/* destop response */}
+     {/* destop responsive */}
 
-     {/* laptop response */}
+     {/* laptop responsive */}
       <div className="hidden lg:block xl:hidden">
     <div className="flex flex-row items-center justify-center gap-10 mt-0 px-[10%]  pt-[20%] bg-white">
       {/* Left: Images */}
@@ -141,14 +141,14 @@ export default function Home() {
       </div>
     </div>
     </div>
-     {/* laptop response */}
+     {/* laptop responsive */}
 
     
 
 
     
 
-     {/* tab response*/}
+     {/* tab responsive*/}
       <div className="hidden sm:block lg:hidden">
     <div className="flex flex-col  items-center justify-center gap-10 px-[8%] pt-20 mt-[45%]  bg-white">
       {/* Left: Images */}
@@ -216,9 +216,9 @@ export default function Home() {
       </div>
     </div>
     </div>
-      {/* tab response*/}
+      {/* tab responsive*/}
 
-      {/* mobile response */}
+      {/* mobile responsive */}
     <div className="block sm:hidden ">
     <div className="flex flex-col  items-center justify-center gap-10 px-[8%] pt-20 mt-[120%] bg-white">
       {/* Left: Images */}
@@ -249,17 +249,17 @@ export default function Home() {
 
       {/* Right: Text */}
       <div className="w-full mt-[10%] space-y-4">
-        <p className="text-[100%] font-semibold text-[#063231] font-primary">
+        <p className="text-[4vw] font-semibold text-[#063231] font-primary">
           ABOUT US
         </p>
 
-        <h1 className=" text-[200%] font-bold leading-tight text-[#063231] font-primary">
+        <h1 className=" text-[8vw] font-bold leading-tight text-[#063231] font-primary">
           Your Trusted <br className="hidden lg:block" />
           Construction Partner in <br className="hidden lg:block" />
           Kambainallore & Dharmapuri
         </h1>
 
-        <p className="text-gray-700  text-[120%]font-secondary">
+        <p className="text-gray-700  text-[5vw]font-secondary">
           Sri Velan Constructions is a local construction company based in
           Kambainallore, Dharmapuri. With years of hands-on experience, we focus
           on residential building projects that meet both budget and quality
@@ -271,23 +271,23 @@ export default function Home() {
         {/* Bullet Points */}
         <ul className="space-y-3 text-gray-800 font-secondary">
           <li className="flex items-center gap-2">
-            <span className="text-green-600 text-[100%]">✔</span> Residential Building Specialists
+            <span className="text-green-600 text-[4vw]">✔</span> Residential Building Specialists
           </li>
           <li className="flex items-center gap-2">
-            <span className="text-green-600 text-[100%]">✔</span> Skilled Manpower
+            <span className="text-green-600 text-[4vw]">✔</span> Skilled Manpower
           </li>
           <li className="flex items-center gap-2">
-            <span className="text-green-600 text-[100%]">✔</span> On-time Project Completion
+            <span className="text-green-600 text-[4vw]">✔</span> On-time Project Completion
           </li>
           <li className="flex items-center gap-2">
-            <span className="text-green-600 text-[100%]">✔</span> Strong Local Reputation
+            <span className="text-green-600 text-[4vw]">✔</span> Strong Local Reputation
           </li>
         </ul>
       </div>
     </div>
     </div>
 
-    {/* mobile response */}
+    {/* mobile responsive */}
     </div>
   );
 }
