@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { FaHandHoldingHeart } from "react-icons/fa6";
-import { FaFlag } from "react-icons/fa";
+
 
 export default function About() {
   return (
@@ -9,14 +9,14 @@ export default function About() {
       <div className="hidden xl:block bg-white text-lg text-black">
         <div className="bg-[#137a7a]  items-center flex justify-center text-center bg-blend-multiply rounded-bl-[80%_100px] rounded-br-[80%_100px] w-full h-[70vh] bg-cover bg-center bg-[url('https://images.pexels.com/photos/2079234/pexels-photo-2079234.jpeg')]">
           <div className="flex text-white items-center text-center gap-4 py-[10%] px-[20%] flex-col">
-            <p className="bg-[#407d7d]/60 font-sencondary  px-3 font-semibold py-1 rounded-full cursor-pointer">
+            <p className="bg-[#407d7d]/60  px-3 text-[1vw] font-semibold py-1 rounded-full cursor-pointer font-primary">
               ABOUT
             </p>
             <p className="font-bold text-[3vw]   font-primary">
               Building With Care, Backed by Trust
             </p>
-            <p className="font-sencondary text-[1.1vw]">
-              At Sri Velan Constructions, we don’t just build houses — we build
+            <p className="font-sencondary text-[1.2vw]">
+              At Sri Velan Constructions, we don&apos;t just build houses — we build
               lasting relationships based on trust, honesty, and quality work.
             </p>
           </div>
@@ -29,9 +29,9 @@ export default function About() {
             <p className="text-[2vw] font-bold text-[#063231]  font-primary">
               Built in Kambainallore. Trusted Across Dharmapuri.
             </p>
-            <p className="font-sencondary text-[#305658] text-[1vw]">
+            <p className="font-sencondary text-[#305658] text-[1.2vw]">
               At Sri Velan Constructions, construction is more than cement and
-              bricks — it’s about creating strong and comfortable homes that
+              bricks — it&apos;s about creating strong and comfortable homes that
               last for generations. Based in Kambainallore, Dharmapuri, we focus
               mainly on residential projects with a balance of quality, timing,
               and affordability. Our goal is simple: to make your dream home a
@@ -113,7 +113,7 @@ export default function About() {
           <p className=" font-semibold text-[90%] pb-5 text-[#305658] font-primary">
             IMPACTFUL
           </p>
-          <p className="text-[2.8vw]  font-bold font-primary text-[#063231]">
+          <p className="text-[3vw]  font-bold font-primary text-[#063231]">
             Vision, Mission & Values
           </p>
           <div className="grid grid-cols-3 grid-rows-1  justify-center gap-10 w-full h-full items-center px-[3%] pt-[8%]">
@@ -133,10 +133,10 @@ export default function About() {
                 <circle cx="12" cy="12" r="10" />
                 <circle cx="12" cy="12" r="6" />
               </svg>
-              <p className="font-bold text-[1.5vw] text-[#063231] font-primary">
+              <p className="font-bold text-[1.7vw] text-[#063231] font-primary">
                 Our Vision
               </p>
-              <p className="font-sencondary text-[1vw] text-[#305658]">
+              <p className="font-sencondary text-[1.1vw] text-[#305658]">
                 To create safe, beautiful homes that bring happiness and pride
                 to every family we serve.
               </p>
@@ -156,10 +156,10 @@ export default function About() {
               >
                 <path d="M4 22V4a1 1 0 0 1 .4-.8A6 6 0 0 1 8 2c3 0 5 2 7.333 2q2 0 3.067-.8A1 1 0 0 1 20 4v10a1 1 0 0 1-.4.8A6 6 0 0 1 16 16c-3 0-5-2-8-2a6 6 0 0 0-4 1.528" />
               </svg>
-              <p className="font-bold text-[1.5vw] font-primary text-[#063231]">
+              <p className="font-bold text-[1.7vw] font-primary text-[#063231]">
                 Our Mission
               </p>
-              <p className="font-sencondary text-[1vw] text-[#305658]">
+              <p className="font-sencondary text-[1.1vw] text-[#305658]">
                 To make construction simple and dependable through skilled work,
                 open communication, and genuine care for clients.{" "}
               </p>
@@ -171,10 +171,10 @@ export default function About() {
                 color="#cbff54"
                 className="rounded-full  p-1.5 bg-[#063231]"
               />
-              <p className="font-bold text-[1.5vw] font-primary text-[#063231]">
+              <p className="font-bold text-[1.7vw] font-primary text-[#063231]">
                 Our Values
               </p>
-              <p className="font-sencondary text-[1vw] text-[#305658]">
+              <p className="font-sencondary text-[1.1vw] text-[#305658]">
                 We believe in integrity, responsibility, and quality. Every
                 project is handled with respect for time, trust, and budget.
               </p>
@@ -193,13 +193,13 @@ export default function About() {
           ></Image>
 
           <div className="flex flex-col gap-5 justify-center">
-            <p className="font-primary text-[1.2vw] text-[#063231]">
+            <p className="font-primary font-semibold text-[1.1vw] text-[#305658]">
               REAL FOUNDATION
             </p>
             <p className="font-bold text-[3vw]  font-primary text-[#063231]">
               What Drives Us
             </p>
-            <p className="font-sencondary text-[1vw] text-[#305658]">
+            <p className="font-sencondary text-[1.2vw] text-[#305658]">
               We started Sri Velan Constructions with one goal — to bring
               reliability and quality back into local home construction. Our
               team focuses on clear communication, clean work, and long-term
@@ -221,7 +221,7 @@ export default function About() {
               >
                 <path d="m9 12 2 2 4-6" />
               </svg>
-              <p className="font-sencondary text-[1vw] text-[#305658]">
+              <p className="font-sencondary text-[1.2vw] text-[#305658]">
                 Experienced Local Builders
               </p>
             </div>
@@ -241,7 +241,7 @@ export default function About() {
               >
                 <path d="m9 12 2 2 4-6" />
               </svg>
-              <p className="font-sencondary text-[1vw] text-[#305658]">
+              <p className="font-sencondary text-[1.2vw] text-[#305658]">
                 Quality Materials & Neat Work
               </p>
             </div>
@@ -261,7 +261,7 @@ export default function About() {
               >
                 <path d="m9 12 2 2 4-6" />
               </svg>
-              <p className="font-sencondary text-[1vw] text-[#305658]">
+              <p className="font-sencondary text-[1.2vw] text-[#305658]">
                 Quality Materials & Neat Work
               </p>
             </div>
@@ -281,7 +281,7 @@ export default function About() {
               >
                 <path d="m9 12 2 2 4-6" />
               </svg>
-              <p className="font-sencondary text-[1vw] text-[#305658]">
+              <p className="font-sencondary text-[1.2vw] text-[#305658]">
                 Friendly and Honest Service
               </p>
             </div>
@@ -302,7 +302,7 @@ export default function About() {
               Building With Care, Backed by Trust
             </p>
             <p className="font-sencondary text-[1.7vw] text-white">
-              At Sri Velan Constructions, we don’t just build houses — we build
+              At Sri Velan Constructions, we don&apos;t just build houses — we build
               lasting relationships based on trust, honesty, and quality work.
             </p>
           </div>
@@ -317,7 +317,7 @@ export default function About() {
             </p>
             <p className="font-sencondary text-[1.5vw] text-[#305658]">
               At Sri Velan Constructions, construction is more than cement and
-              bricks — it’s about creating strong and comfortable homes that
+              bricks — it&apos;s about creating strong and comfortable homes that
               last for generations. Based in Kambainallore, Dharmapuri, we focus
               mainly on residential projects with a balance of quality, timing,
               and affordability. Our goal is simple: to make your dream home a
@@ -349,7 +349,7 @@ export default function About() {
               className="h-[48vh] w-full"
             ></Image>
             <div className="flex flex-col justify-between h-[48vh] p-5 bg-[#0c3636]">
-              <p className="font-semibold text-[#cbff54] text-[100%] font-primary">
+              <p className="font-semibold text-[#cbff54] text-[1.8vw] font-primary">
                 HAPPY CLIENTS
               </p>
               <div className="flex flex-col gap-5">
@@ -371,7 +371,7 @@ export default function About() {
             ></Image>
 
             <div className="flex flex-col justify-between h-[48vh] p-5 bg-[#cbff54]">
-              <p className="font-semibold text-[#063231] text-[100%] font-primary">
+              <p className="font-semibold text-[#063231] text-[1.8vw] font-primary">
                 COMMITMENT
               </p>
               <div className="flex flex-col gap-5">
@@ -602,7 +602,7 @@ export default function About() {
               Building With Care, Backed by Trust
             </p>
             <p className="font-sencondary text-[2.5vw] text-white">
-              At Sri Velan Constructions, we don’t just build houses — we build
+              At Sri Velan Constructions, we don&apos;t just build houses — we build
               lasting relationships based on trust, honesty, and quality work.
             </p>
           </div>
@@ -616,7 +616,7 @@ export default function About() {
             </p>
             <p className="pb-[5%] font-sencondary text-[#305658] text-[2.5vw]">
               At Sri Velan Constructions, construction is more than cement and
-              bricks — it’s about creating strong and comfortable homes that
+              bricks — it&apos;s about creating strong and comfortable homes that
               last for generations. Based in Kambainallore, Dharmapuri, we focus
               mainly on residential projects with a balance of quality, timing,
               and affordability. Our goal is simple: to make your dream home a
@@ -872,11 +872,11 @@ export default function About() {
       {/* Mobile Responsive */}
       <div className="sm:hidden block bg-white">
 
-        <div className="bg-[#218686]  bg-blend-multiply rounded-bl-[80%_100px] rounded-br-[80%_100px] w-full h-[50vh] bg-cover bg-center bg-[url('https://images.pexels.com/photos/2079234/pexels-photo-2079234.jpeg')]">
+        <div className="bg-[#218686]  bg-blend-multiply rounded-bl-[80%_50px] rounded-br-[80%_50px] w-full h-[50vh] bg-cover bg-center bg-[url('https://images.pexels.com/photos/2079234/pexels-photo-2079234.jpeg')]">
           <div className="flex text-white items-center text-center gap-4 py-[20%]  px-[5%] flex-col">
             <p className="bg-[#407d7d]/60  px-3 font-semibold py-1 rounded-full text-[100%] cursor-pointer font-c2a">ABOUT</p>
             <p className="font-bold text-[7vw] font-primary text-white">Building With Care, Backed by Trust</p>
-            <p className="font-sencondary text-[4vw] text-white">At Sri Velan Constructions, we don’t just build houses — we build lasting relationships based on trust, honesty, and quality work.</p>
+            <p className="font-sencondary text-[4vw] text-white">At Sri Velan Constructions, we don&apos;t just build houses — we build lasting relationships based on trust, honesty, and quality work.</p>
           </div>
         </div>
 
@@ -884,7 +884,7 @@ export default function About() {
         <div className="flex flex-col  w-full py-[8%]  px-[8%] bg-white">
           <div className="grid grid-row-2  gap-[8%]">
             <p className="text-[7vw] font-bold text-[#063231] font-primary">Built in Kambainallore. Trusted Across Dharmapuri.</p>
-            <p className="pb-[5%] font-sencondary text-[#305658] text-[4vw]">At Sri Velan Constructions, construction is more than cement and bricks — it’s about creating strong and comfortable homes that last for generations.
+            <p className="pb-[5%] font-sencondary text-[#305658] text-[4vw]">At Sri Velan Constructions, construction is more than cement and bricks — it&apos;s about creating strong and comfortable homes that last for generations.
               Based in Kambainallore, Dharmapuri, we focus mainly on residential projects with a balance of quality, timing, and affordability.
               Our goal is simple: to make your dream home a reality through careful planning, reliable manpower, and transparent service.</p>
           </div>
