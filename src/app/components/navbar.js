@@ -28,7 +28,7 @@ export default function Navbar() {
       {/* 1️⃣ DESKTOPRESPONSIVE*/}
       
       <div className="hidden xl:block bg-transparent absolute w-full z-50">
-        <div className="max-w-7xl mx-auto px-[5%] py-5 flex justify-between items-center">
+        <div className="max-w-7xl mx-auto px-[8%] py-5 flex justify-between items-center">
           {/* Logo */}
           <Link href="/" onClick={closeMenu}>
 
@@ -56,7 +56,7 @@ export default function Navbar() {
 
           {/* Contact Button */}
           <Link href="/contact">
-            <button className="bg-lime-400 cursor-pointer text-gray-900 font-semibold px-6 py-2 rounded-full hover:bg-lime-500 transition font-c2a">
+            <button className="bg-[#cbff54] hover:bg-lime-500 text-[#063231] cursor-pointer font-semibold px-6 py-2 rounded-full transition font-c2a">
               GET IN TOUCH
             </button>
           </Link>
@@ -93,7 +93,7 @@ export default function Navbar() {
           </ul>
 
           <Link href="/contact">
-            <button className="bg-lime-400 cursor-pointer text-gray-900 font-semibold px-5 py-2 rounded-full hover:bg-lime-500 transition font-c2a">
+            <button className="bg-[#cbff54] hover:bg-lime-500 text-[#063231] cursor-pointer  font-semibold px-5 py-2 rounded-full  transition font-c2a">
               GET IN TOUCH
             </button>
           </Link>
@@ -162,7 +162,7 @@ export default function Navbar() {
                   </li>
                 ))}
                 <Link href="/contact" onClick={closeMenu}>
-                  <button className="bg-lime-400 cursor-pointer text-gray-900  font-semibold px-5 py-2 rounded-full hover:bg-lime-500 transition font-c2a">
+                  <button className="bg-[#cbff54] hover:bg-lime-500 text-[#063231] cursor-pointer   font-semibold px-5 py-2 rounded-full  transition font-c2a">
                     GET IN TOUCH
                   </button>
                 </Link>
@@ -186,7 +186,7 @@ export default function Navbar() {
 
           {/* Mobile Menu Button */}
           <button
-            className="flex flex-col justify-between w-6 h-5 focus:outline-none"
+            className="flex flex-col justify-between w-5 h-4 focus:outline-none"
             onClick={toggleMenu}
           >
             <motion.span
@@ -234,7 +234,7 @@ export default function Navbar() {
                   </li>
                 ))}
                 <Link href="/contact" onClick={closeMenu}>
-                  <button className="bg-lime-400 cursor-pointer text-gray-900 font-semibold px-4 py-2 rounded-full hover:bg-lime-500 transition font-c2a">
+                  <button className="bg-[#cbff54] hover:bg-lime-500 text-[#063231] cursor-pointer  font-semibold px-4 py-2 rounded-full  transition font-c2a">
                     GET IN TOUCH
                   </button>
                 </Link>

@@ -15,16 +15,16 @@ export default function PrivacyPolicy() {
           
           {/* 1. Introduction */}
           <div>
-            <h2 className="font-bold text-[2.2vw] mb-[1%] font-primary text-[#063231]">1. Introduction</h2>
-            <p className="text-[#305658] text-[1.4vw]">
+            <h2 className="font-bold text-[2vw] mb-[1%] font-primary text-[#063231]">1. Introduction</h2>
+            <p className="text-[#305658] text-[1.2vw]">
               <span className="font-semibold font-sencondary text-[#063231]">SRI VELAN CONSTRUCTION</span> is committed to protecting the privacy of our clients and website users. This policy outlines how we collect, use, and safeguard your information.
             </p>
           </div>
 
           {/* 2. Information Collection */}
           <div>
-            <h2 className="font-bold text-[2.2vw] mb-[1%] font-primary text-[#063231]">2. Information Collection</h2>
-            <ul className="list-disc  text-[1.4vw] ml-[4%] font-sencondary text-[#305658] space-y-[0.8%]">
+            <h2 className="font-bold text-[2vw] mb-[1%] font-primary text-[#063231]">2. Information Collection</h2>
+            <ul className="list-disc  text-[1.2vw] ml-[4%] font-sencondary text-[#305658] ">
               <li>Name, contact number, email address, and address.</li>
               <li>Project details, requirements, and preferences.</li>
             </ul>
@@ -32,8 +32,8 @@ export default function PrivacyPolicy() {
 
           {/* 3. Use of Information */}
           <div>
-            <h2 className="font-bold text-[2.2vw] mb-[1%] font-primary text-[#063231]">3. Use of Information</h2>
-            <ul className="list-disc text-[1.4vw] ml-[4%] font-sencondary text-[#305658] space-y-[0.8%]">
+            <h2 className="font-bold text-[2vw] mb-[1%] font-primary text-[#063231]">3. Use of Information</h2>
+            <ul className="list-disc text-[1.2vw] ml-[4%] font-sencondary text-[#305658] ">
               <li>Provide and improve our construction services.</li>
               <li>Respond to inquiries and service requests.</li>
               <li>Communicate project updates, billing, and contractual obligations.</li>
@@ -42,8 +42,8 @@ export default function PrivacyPolicy() {
 
           {/* 4. Sharing of Information */}
           <div>
-            <h2 className="font-bold text-[2.2vw] font-primary mb-[1%] text-[#063231]">4. Sharing of Information</h2>
-            <ul className="list-disc ml-[4%] font-sencondary  text-[1.4vw] text-[#305658] space-y-[0.8%]">
+            <h2 className="font-bold text-[2vw] font-primary mb-[1%] text-[#063231]">4. Sharing of Information</h2>
+            <ul className="list-disc ml-[4%] font-sencondary  text-[1.2vw] text-[#305658] ">
               <li>We do not sell or rent your information to third parties.</li>
               <li>Information may be shared with trusted service providers or contractors strictly for project execution purposes.</li>
               <li>Legal obligations may require disclosure of information if mandated by law.</li>
@@ -52,24 +52,24 @@ export default function PrivacyPolicy() {
 
           {/* 5. Data Security */}
           <div>
-            <h2 className="font-bold text-[2.2vw] font-primary mb-[1%] text-[#063231]">5. Data Security</h2>
-            <p className=" font-sencondary  text-[1.4vw] text-[#305658] ">
+            <h2 className="font-bold text-[2vw] font-primary mb-[1%] text-[#063231]">5. Data Security</h2>
+            <p className=" font-sencondary  text-[1.2vw] text-[#305658] ">
               We implement reasonable technical and administrative measures to protect personal data. Access to personal information is restricted to authorized personnel only.
             </p>
           </div>
 
           {/* 6. Cookies and Tracking */}
           <div>
-            <h2 className="font-bold text-[2.2vw] font-primary mb-[1%] text-[#063231]">6. Cookies and Tracking</h2>
-            <p className=" text-[1.4vw] font-sencondary text-[#305658] ">
+            <h2 className="font-bold text-[2vw] font-primary mb-[1%] text-[#063231]">6. Cookies and Tracking</h2>
+            <p className=" text-[1.2vw] font-sencondary text-[#305658] ">
               Our website may use cookies to enhance user experience. Cookies do not collect personal information unless voluntarily provided.
             </p>
           </div>
 
           {/* 7. User Rights */}
           <div>
-            <h2 className="font-bold text-[2.2vw] font-primary mb-[1%] text-[#063231]">7. User Rights</h2>
-            <p className=" text-[1.4vw] font-c2a text-[#305658] ">
+            <h2 className="font-bold text-[2vw] font-primary mb-[1%] text-[#063231]">7. User Rights</h2>
+            <p className=" text-[1.2vw] font-c2a text-[#305658] ">
               Users can request access, correction, or deletion of their personal information. Contact us at{" "}
               <Link href="https://mail.google.com/mail/u/0/?to=srivelamconstruction@gmail.com&su=Enquiry+Regarding+Construction+Services&fs=1&tf=cm"
                   target="_blank" className="text-green-700 underline">
@@ -81,19 +81,19 @@ export default function PrivacyPolicy() {
 
           {/* 8. Updates */}
           <div>
-            <h2 className="font-bold text-[2.2vw] font-primary mb-[1%] text-[#063231]">8. Updates to Privacy Policy</h2>
-            <p className=" text-[1.4vw] font-sencondary text-[#305658] ">
+            <h2 className="font-bold text-[2vw] font-primary mb-[1%] text-[#063231]">8. Updates to Privacy Policy</h2>
+            <p className=" text-[1.2vw] font-sencondary text-[#305658] ">
               We may update this privacy policy from time to time. Updated policies will be posted on our website with the effective date.
             </p>
           </div>
 
           {/* 9. Contact */}
           <div>
-            <h2 className="font-bold text-[2.2vw] font-primary mb-[1%] text-[#063231]">9. Contact</h2>
-            <p className=" text-[1.4vw]] font-sencondary text-[#305658] ">For any questions regarding terms, conditions, or privacy, contact:</p>
+            <h2 className="font-bold text-[2vw] font-primary mb-[1%] text-[#063231]">9. Contact</h2>
+            <p className=" text-[1.2vw]] font-sencondary text-[#305658] ">For any questions regarding terms, conditions, or privacy, contact:</p>
             <p className="mt-[1%] font-semibold font-sencondary text-[#063231]">SRI VELAN CONSTRUCTION</p>
-            <p className=" text-[1.4vw] font-sencondary text-[#305658] ">Phone: 8248501872</p>
-            <p className="t text-[1.4vw] font-c2a text-[#305658]">
+            <p className=" text-[1.2vw] font-sencondary text-[#305658] ">Phone: 8248501872</p>
+            <p className="t text-[1.2vw] font-c2a text-[#305658]">
               Email:{" "}
              <Link href="https://mail.google.com/mail/u/0/?to=srivelamconstruction@gmail.com&su=Enquiry+Regarding+Construction+Services&fs=1&tf=cm"
                   target="_blank" className="text-green-700 underline">
@@ -114,55 +114,55 @@ export default function PrivacyPolicy() {
 
         <div className="max-w-5xl mx-auto px-[8%] py-[7%] text-[100%] leading-[170%] space-y-[5%]">
           <div>
-            <h2 className="font-bold text-[3.5vw] font-primary mb-[1%] text-[#063231]">1. Introduction</h2>
-            <p className="text-[2.2vw] pt-[3%] font-sencondary text-[#305658] ">
+            <h2 className="font-bold text-[3vw] font-primary mb-[1%] text-[#063231]">1. Introduction</h2>
+            <p className="text-[2vw] pt-[3%] font-sencondary text-[#305658] ">
               <span className="font-semibold font-sencondary">SRI VELAN CONSTRUCTION</span> is committed to protecting the privacy of our clients and website users. This policy outlines how we collect, use, and safeguard your information.
             </p>
           </div>
 
           <div>
-            <h2 className="font-bold text-[3.5vw] font-primary mb-[1%] text-[#063231]">2. Information Collection</h2>
+            <h2 className="font-bold text-[3vw] font-primary mb-[1%] text-[#063231]">2. Information Collection</h2>
             <ul className="list-disc ml-[4%] space-y-[0.8%]">
-              <li className="text-[2.2vw] font-sencondary text-[#305658] ">Name, contact number, email address, and address.</li>
-              <li className="text-[2.2vw] font-sencondary text-[#305658]">Project details, requirements, and preferences.</li>
+              <li className="text-[2vw] font-sencondary text-[#305658] ">Name, contact number, email address, and address.</li>
+              <li className="text-[2vw] font-sencondary text-[#305658]">Project details, requirements, and preferences.</li>
             </ul>
           </div>
 
           <div>
-            <h2 className="font-bold text-[3.5vw] font-primary mb-[1%] text-[#063231]">3. Use of Information</h2>
+            <h2 className="font-bold text-[3vw] font-primary mb-[1%] text-[#063231]">3. Use of Information</h2>
             <ul className="list-disc ml-[4%] space-y-[0.8%]">
-              <li className="text-[2.2vw] font-sencondary text-[#305658] ">Provide and improve our construction services.</li>
-              <li className="text-[2.2vw] font-sencondary text-[#305658] ">Respond to inquiries and service requests.</li>
-              <li className="text-[2.2vw] font-sencondary text-[#305658]">Communicate project updates, billing, and contractual obligations.</li>
+              <li className="text-[2vw] font-sencondary text-[#305658] ">Provide and improve our construction services.</li>
+              <li className="text-[2vw] font-sencondary text-[#305658] ">Respond to inquiries and service requests.</li>
+              <li className="text-[2vw] font-sencondary text-[#305658]">Communicate project updates, billing, and contractual obligations.</li>
             </ul>
           </div>
 
           <div>
-            <h2 className="font-bold text-[3.5vw] font-primary mb-[1%] text-[#063231]">4. Sharing of Information</h2>
+            <h2 className="font-bold text-[3vw] font-primary mb-[1%] text-[#063231]">4. Sharing of Information</h2>
             <ul className="list-disc ml-[4%] space-y-[0.8%]">
-              <li className="text-[2.2vw] font-sencondary text-[#305658]">We do not sell or rent your information to third parties.</li>
-              <li className="text-[2.2vw] font-sencondary text-[#305658]">Information may be shared with trusted service providers or contractors strictly for project execution purposes.</li>
-              <li className="text-[2.2vw] font-sencondary text-[#305658]">Legal obligations may require disclosure of information if mandated by law.</li>
+              <li className="text-[2vw] font-sencondary text-[#305658]">We do not sell or rent your information to third parties.</li>
+              <li className="text-[2vw] font-sencondary text-[#305658]">Information may be shared with trusted service providers or contractors strictly for project execution purposes.</li>
+              <li className="text-[2vw] font-sencondary text-[#305658]">Legal obligations may require disclosure of information if mandated by law.</li>
             </ul>
           </div>
 
           <div>
-            <h2 className="font-bold text-[3.5vw] font-primary mb-[1%] text-[#063231]">5. Data Security</h2>
-            <p className="text-[2.2vw] font-sencondary text-[#305658]">
+            <h2 className="font-bold text-[3vw] font-primary mb-[1%] text-[#063231]">5. Data Security</h2>
+            <p className="text-[2vw] font-sencondary text-[#305658]">
               We implement reasonable technical and administrative measures to protect personal data. Access to personal information is restricted to authorized personnel only.
             </p>
           </div>
 
           <div>
-            <h2 className="font-bold text-[3.5vw] font-primary mb-[1%] text-[#063231]">6. Cookies and Tracking</h2>
-            <p className="text-[2.2vw] font-sencondary text-[#305658]">
+            <h2 className="font-bold text-[3vw] font-primary mb-[1%] text-[#063231]">6. Cookies and Tracking</h2>
+            <p className="text-[2vw] font-sencondary text-[#305658]">
               Our website may use cookies to enhance user experience. Cookies do not collect personal information unless voluntarily provided.
             </p>
           </div>
 
           <div>
-            <h2 className="font-bold text-[3.5vw] font-primary mb-[1%] text-[#063231]">7. User Rights</h2>
-            <p className="text-[2.2vw] font-sencondary text-[#305658] ">
+            <h2 className="font-bold text-[3vw] font-primary mb-[1%] text-[#063231]">7. User Rights</h2>
+            <p className="text-[2vw] font-sencondary text-[#305658] ">
               Users can request access, correction, or deletion of their personal information. Contact us at{" "}
               <Link href="https://mail.google.com/mail/u/0/?to=srivelamconstruction@gmail.com&su=Enquiry+Regarding+Construction+Services&fs=1&tf=cm"
                   target="_blank" className="text-green-700 font-c2a underline">
@@ -173,18 +173,18 @@ export default function PrivacyPolicy() {
           </div>
 
           <div>
-            <h2 className="font-bold text-[3.5vw] font-primary mb-[1%] text-[#063231]">8. Updates to Privacy Policy</h2>
-            <p className="text-[2.2vw] font-sencondary text-[#305658] ">
+            <h2 className="font-bold text-[3vw] font-primary mb-[1%] text-[#063231]">8. Updates to Privacy Policy</h2>
+            <p className="text-[2vw] font-sencondary text-[#305658] ">
               We may update this privacy policy from time to time. Updated policies will be posted on our website with the effective date.
             </p>
           </div>
 
           <div>
-            <h2 className="font-bold text-[3.5vw] font-primary mb-[1%] text-[#063231]">9. Contact</h2>
-            <p className="text-[2.2vw] font-sencondary text-[#305658]">For any questions regarding terms, conditions, or privacy, contact:</p>
+            <h2 className="font-bold text-[3vw] font-primary mb-[1%] text-[#063231]">9. Contact</h2>
+            <p className="text-[2vw] font-sencondary text-[#305658]">For any questions regarding terms, conditions, or privacy, contact:</p>
             <p className="mt-[1%] font-semibold font-secondary text-[#063231]">SRI VELAN CONSTRUCTION</p>
-            <p className="text-[2.2vw] font-sencondary text-[#305658]">Phone: 8248501872</p>
-            <p className="text-[2.2vw] font-sencondary text-[#305658]">
+            <p className="text-[2vw] font-sencondary text-[#305658]">Phone: 8248501872</p>
+            <p className="text-[2vw] font-sencondary text-[#305658]">
               Email:{" "}
               <Link href="https://mail.google.com/mail/u/0/?to=srivelamconstruction@gmail.com&su=Enquiry+Regarding+Construction+Services&fs=1&tf=cm"
                   target="_blank" className="text-green-700 font-c2a underline">

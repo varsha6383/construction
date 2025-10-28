@@ -1,4 +1,4 @@
-"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 export default function Service() {
@@ -14,7 +14,7 @@ export default function Service() {
             <p className="font-bold text-[3vw]  font-primary">
               Our Construction Solutions
             </p>
-            <p className="font-sencondary text-[1.1vw]">
+            <p className="font-sencondary text-[1.2vw]">
               We offer complete construction services to bring your dream home
               to life — with care, skill, and quality materials.
             </p>
@@ -34,7 +34,7 @@ export default function Service() {
               ></Image>{" "}
             </div>
             <div className="flex flex-col gap-3 p-10 h-full justify-center">
-              <p className="font-bold text-[1.7vw] font-primary text-[#063231]">
+              <p className="font-bold text-[2vw] font-primary text-[#063231]">
                 Residential Construction
               </p>
               <p className="font-sencondary text-[1.1vw] text-[#305658]">
@@ -42,7 +42,7 @@ export default function Service() {
                 budget, and lifestyle. From foundation to finishing, we handle
                 everything with care.
               </p>
-              <p className="font-bold text-[1.5vw] pt-3 font-primary text-[#063231]">
+              <p className="font-bold text-[1.7vw] pt-3 font-primary text-[#063231]">
                 Key Benefits
               </p>
               <div className="flex gap-2 font-sencondary text-[#305658] text-[1.1vw]">
@@ -117,7 +117,7 @@ export default function Service() {
                 <p>Timely project completion</p>
               </div>
 
-              <button className="px-[5%] text-[1.2vw] py-2 mt-4 font-c2a rounded-full w-fit text-[#063231] font-semibold tracking-wide bg-[#cbff54] hover:bg-[#cbf36f] cursor-pointer">
+              <button className="px-[5%] text-[1.2vw] py-2 mt-4 font-c2a rounded-full w-fit text-[#063231] font-semibold tracking-wide bg-[#cbff54] hover:bg-lime-500 cursor-pointer">
                 <Link href="/contact">ENQUIRE NOW</Link>
               </button>
             </div>
@@ -125,14 +125,14 @@ export default function Service() {
 
           <div className="grid grid-cols-2 h-full  justify-between w-[63%] border border-gray-400 rounded-3xl items-center">
             <div className="flex flex-col gap-3 p-10 h-full justify-center">
-              <p className="font-bold text-[1.7vw] text-[#063231] font-primary">
+              <p className="font-bold text-[2vw] text-[#063231] font-primary">
                 Commercial Buildings
               </p>
               <p className="font-sencondary text-[#305658] text-[1.1vw]">
                 We also take up small commercial and rental building projects
                 that require strong foundations and functional designs.
               </p>
-              <p className="font-bold text-[1.5vw] pt-3 font-primary text-[#063231]">
+              <p className="font-bold text-[1.7vw] pt-3 font-primary text-[#063231]">
                 Key Benefits
               </p>
               <div className="flex gap-2   font-sencondary text-[#305658] text-[1.1vw]">
@@ -207,7 +207,7 @@ export default function Service() {
                 <p>Built to match your business needs</p>
               </div>
 
-              <button className="px-[5%] text-[1.2vw] py-2 mt-4 font-c2a w-fit rounded-full font-semibold tracking-wide text-[#063231] bg-[#cbff54] hover:bg-[#cef27b] cursor-pointer">
+              <button className="px-[5%] text-[1.2vw]  py-2 mt-4 font-c2a w-fit rounded-full font-semibold tracking-wide text-[#063231] bg-[#cbff54] hover:bg-lime-500 cursor-pointer">
                 <Link href="/contact">ENQUIRE NOW</Link>
               </button>
             </div>
@@ -233,14 +233,14 @@ export default function Service() {
               ></Image>{" "}
             </div>
             <div className="flex flex-col gap-3 p-10 h-full justify-center">
-              <p className="font-bold text-[1.7vw] font-primary text-[#063231]">
+              <p className="font-bold text-[2vw] font-primary text-[#063231]">
                 Renovation & Remodeling
               </p>
               <p className="font-sencondary text-[1.1vw] text-[#305658]">
                 We give new life to old homes through careful renovation and
                 smart upgrades — without disturbing your daily routine.
               </p>
-              <p className="font-bold text-[1.5vw] pt-3 font-primary text-[#063231]">
+              <p className="font-bold text-[1.7vw] pt-3 font-primary text-[#063231]">
                 Key Benefits
               </p>
               <div className="flex gap-2 font-sencondary text-[#305658] text-[1.1vw]">
@@ -315,7 +315,7 @@ export default function Service() {
                 <p>Clean and budget-friendly finishing</p>
               </div>
 
-              <button className="px-[5%] text-[1.2vw] py-2 mt-4 font-c2a rounded-full w-fit text-[#063231] font-semibold tracking-wide bg-[#cbff54] hover:bg-[#cbf36f] cursor-pointer">
+              <button className="px-[5%] text-[1.2vw] py-2 mt-4 font-c2a rounded-full w-fit text-[#063231] font-semibold tracking-wide bg-[#cbff54] hover:bg-lime-500 cursor-pointer">
                 <Link href="/contact">ENQUIRE NOW</Link>
               </button>
             </div>
@@ -325,7 +325,7 @@ export default function Service() {
         {/* Section */}
         <div className=" h-full w-full bg-blue-50 py-30">
           <div className="flex flex-col text-center  items-center gap-4 px-[25%]">
-            <p className="font-semibold font-primary text-[#305658] text-[1vw]">
+            <p className="font-semibold font-primary text-[#305658] text-[1.1vw]">
               3-STEP PROCESS
             </p>
             <p className="font-bold text-[3vw] text-[#063231] font-primary">
@@ -333,7 +333,7 @@ export default function Service() {
             </p>
             <p className=" text-gray-700 font-sencondary text-[1.2vw]">
               We believe that great homes are built through open communication
-              and proper planning. Here’s how we make the process easy for you:
+              and proper planning. Here&apos;s how we make the process easy for you:
             </p>
           </div>
 
@@ -360,7 +360,7 @@ export default function Service() {
                 <path d="M9.5 12H16" />
                 <path d="M9.5 16H14" />
               </svg>
-              <p className="font-bold text-[1.2vw] font-primary text-[#063231]">
+              <p className="font-bold text-[1.5vw] font-primary text-[#063231]">
                 1. Plan & Discover
               </p>
               <p className="font-sencondary text-[1vw] text-[#305658]">
@@ -389,7 +389,7 @@ export default function Service() {
                 <path d="M6 5v16" />
                 <circle cx="12" cy="9" r="2" />
               </svg>
-              <p className="font-bold text-[1.2vw] font-primary text-[#063231]">
+              <p className="font-bold text-[1.5vw] font-primary text-[#063231]">
                 2. Design & Quote
               </p>
               <p className="font-sencondary text-[1vw] text-[#305658]">
@@ -414,7 +414,7 @@ export default function Service() {
                 <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
                 <path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
               </svg>
-              <p className="font-bold text-[1.2vw] font-primary text-[#063231]">
+              <p className="font-bold text-[1.5vw] font-primary text-[#063231]">
                 3. Build & Deliver
               </p>
               <p className="font-sencondary text-[1vw] text-[#305658] ">
@@ -424,7 +424,7 @@ export default function Service() {
             </div>
           </div>
           <div className=" flex items-center justify-around pt-15">
-            <p className=" h-full  tracking-widest font-semibold bg-[#cbff54] text-[#305658] text-[1.2vw] cursor-pointer hover:bg-[#cefa67] px-3 py-2 rounded-full font-c2a">
+            <p className=" h-full  tracking-widest font-semibold bg-[#cbff54] text-[#305658] text-[1.2vw] cursor-pointer hover:bg-lime-500 px-8 py-2 rounded-full font-c2a">
               <Link href="/contact">Schedule a Free Consultation</Link>
             </p>
           </div>
@@ -547,7 +547,7 @@ export default function Service() {
                 <p>Timely project completion</p>
               </div>
 
-              <button className="px-[5%] py-2 mt-4 font-c2a w-fit text-[#063231] rounded-full text-[120%] font-semibold tracking-wide bg-[#cbff54] hover:bg-[#c9f06e] cursor-pointer">
+              <button className="px-[5%] py-2 mt-4 font-c2a w-fit text-[#063231] rounded-full text-[120%] font-semibold tracking-wide bg-[#cbff54] hover:bg-lime-500cursor-pointer">
                 <Link href="/contact">ENQUIRE NOW</Link>
               </button>
             </div>
@@ -637,7 +637,7 @@ export default function Service() {
                 <p>Built to match your business needs</p>
               </div>
 
-              <button className="px-[5%] text-[120%] py-2 mt-4 text-[#063231] font-c2a w-fit rounded-full font-semibold tracking-wide bg-[#cbff54] hover:bg-[#cef27b] cursor-pointer">
+              <button className="px-[5%] text-[120%] py-2 mt-4 text-[#063231] font-c2a w-fit rounded-full font-semibold tracking-wide bg-[#cbff54] hover:bg-lime-500 cursor-pointer">
                 <Link href="/contact">ENQUIRE NOW</Link>
               </button>
             </div>
@@ -745,7 +745,7 @@ export default function Service() {
                 <p>Clean and budget-friendly finishing</p>
               </div>
 
-              <button className="px-[5%] text-[120%] py-2 text-[#063231] mt-4 font-c2a rounded-full w-fit font-semibold tracking-wide bg-[#cbff54] hover:bg-[#cbf36f] cursor-pointer">
+              <button className="px-[5%] text-[120%] py-2 text-[#063231] mt-4 font-c2a rounded-full w-fit font-semibold tracking-wide bg-[#cbff54] hover:bg-lime-500 cursor-pointer">
                 <Link href="/contact">ENQUIRE NOW</Link>
               </button>
             </div>
@@ -763,7 +763,7 @@ export default function Service() {
             </p>
             <p className=" text-[#305658] font-sencondary text-[1.8vw]">
               We believe that great homes are built through open communication
-              and proper planning. Here’s how we make the process easy for you:
+              and proper planning. Here&apos;s how we make the process easy for you:
             </p>
           </div>
 
@@ -854,7 +854,7 @@ export default function Service() {
             </div>
           </div>
           <div className=" flex items-center justify-around pt-15">
-            <p className=" h-full text-[#305658]  tracking-widest font-semibold bg-[#cbff54] text-[2vw] cursor-pointer hover:bg-[#cefa67] px-3 py-2 rounded-full font-c2a">
+            <p className=" h-full text-[#305658]  tracking-widest font-semibold bg-[#cbff54] text-[2vw] cursor-pointer hover:bg-lime-500 px-8 py-2 rounded-full font-c2a">
               <Link href="/contact">Schedule a Free Consultation</Link>
             </p>
           </div>
@@ -975,7 +975,7 @@ export default function Service() {
                 <p>Timely project completion</p>
               </div>
 
-              <button className="px-[5%] py-2 mt-4 rounded-full text-[2.5vw] w-fit font-semibold tracking-wide bg-[#cbff54] hover:bg-[#cffb69] cursor-pointer font-c2a">
+              <button className="px-[5%] py-2 mt-4 rounded-full text-[2.5vw] w-fit font-semibold tracking-wide bg-[#cbff54] hover:bg-lime-500 cursor-pointer font-c2a">
                 <Link href="/contact">ENQUIRE NOW</Link>
               </button>
             </div>
@@ -1074,7 +1074,7 @@ export default function Service() {
                 <p>Built to match your business needs</p>
               </div>
 
-              <button className="px-[5%] py-2 mt-4 rounded-full text-[2.5vw] w-fit font-semibold tracking-wide text-[#063231] bg-[#cbff54] hover:bg-[#d0fb6b] cursor-pointer font-c2a">
+              <button className="px-[5%] py-2 mt-4 rounded-full text-[2.5vw] w-fit font-semibold tracking-wide text-[#063231] bg-[#cbff54] hover:bg-lime-500 cursor-pointer font-c2a">
                 <Link href="/contact">ENQUIRE NOW</Link>
               </button>
             </div>
@@ -1173,7 +1173,7 @@ export default function Service() {
                 <p>Clean and budget-friendly finishing</p>
               </div>
 
-              <button className="px-[5%] py-2 mt-4 text-[2.5vw] rounded-full w-fit font-semibold tracking-wide text-[#063231] bg-[#cbff54] hover:bg-[#d0fc6a] cursor-pointer font-c2a">
+              <button className="px-[5%] py-2 mt-4 text-[2.5vw] rounded-full w-fit font-semibold tracking-wide text-[#063231] bg-[#cbff54] hover:bg-lime-500 cursor-pointer font-c2a">
                 <Link href="/contact">ENQUIRE NOW</Link>
               </button>
             </div>
@@ -1191,7 +1191,7 @@ export default function Service() {
             </p>
             <p className=" text-[#305658] text-[2.5vw] font-sencondary">
               We believe that great homes are built through open communication
-              and proper planning. Here’s how we make the process easy for you:
+              and proper planning. Here&apos;s how we make the process easy for you:
             </p>
           </div>
 
@@ -1285,7 +1285,7 @@ export default function Service() {
             </div>
           </div>
           <div className=" flex items-center justify-around p-10 text-center">
-            <p className=" h-full  tracking-widest  text-[2.5vw] font-semibold text-[#063231] bg-[#cbff54] cursor-pointer hover:bg-[#ccfa61]  px-5 py-2 rounded-full font-c2a">
+            <p className=" h-full  tracking-widest  text-[2.5vw] font-semibold text-[#063231] bg-[#cbff54] cursor-pointer hover:bg-lime-500  px-5 py-2 rounded-full font-c2a">
               <Link href="/contact">Schedule a Free Consultation</Link>
             </p>
           </div>
@@ -1296,7 +1296,7 @@ export default function Service() {
       {/* Mobile Responsive  */}
       <div className="h-full w-full sm:hidden block  bg-white">
 
-      <div className="bg-[#218686] bg-blend-multiply rounded-bl-[80%_100px] rounded-br-[80%_100px] w-full h-[50vh] bg-cover bg-center bg-[url('https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg')]">
+      <div className="bg-[#218686] bg-blend-multiply rounded-bl-[80%_50px] rounded-br-[80%_50px] w-full h-[50vh] bg-cover bg-center bg-[url('https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg')]">
         <div className="flex text-white items-center text-center gap-4 py-[30%] px-[5%] flex-col">
           <p className="bg-[#407d7d]/60  px-3 text-[4vw] font-semibold py-1 rounded-full cursor-pointer font-c2a">SERVICES</p>
           <p className="font-bold text-[7vw] font-primary">Our Construction Solutions</p>
@@ -1333,7 +1333,7 @@ export default function Service() {
               <p>Timely project completion</p>
             </div>
 
-            <button className="px-[5%] py-2 mt-4 text-[4vw] rounded-full w-fit font-semibold tracking-wide text-[#063231] bg-[#cbff54] hover:bg-[#cffb69] cursor-pointer font-c2a"><Link href='/contact'>ENQUIRE NOW</Link></button>
+            <button className="px-[5%] py-2 mt-4 text-[4vw] rounded-full w-fit font-semibold tracking-wide text-[#063231] bg-[#cbff54] hover:bg-lime-500 cursor-pointer font-c2a"><Link href='/contact'>ENQUIRE NOW</Link></button>
           </div>
 
         </div>
@@ -1364,7 +1364,7 @@ export default function Service() {
               <p>Built to match your business needs</p>
             </div>
 
-            <button className="px-[5%] py-2 mt-4 text-[4vw] rounded-full w-fit font-semibold tracking-wide text-[#063231] bg-[#cbff54] hover:bg-[#d0fb6b] cursor-pointer font-c2a"><Link href='/contact'>ENQUIRE NOW</Link></button>
+            <button className="px-[5%] py-2 mt-4 text-[4vw] rounded-full w-fit font-semibold tracking-wide text-[#063231] bg-[#cbff54] hover:bg-lime-500 cursor-pointer font-c2a"><Link href='/contact'>ENQUIRE NOW</Link></button>
           </div>
 
         </div>
@@ -1395,7 +1395,7 @@ export default function Service() {
               <p>Clean and budget-friendly finishing</p>
             </div>
 
-            <button className="px-[5%] py-2 text-[4vw] mt-4 rounded-full w-fit font-semibold tracking-wide text-[#063231] bg-[#cbff54] hover:bg-[#d0fc6a] cursor-pointer font-c2a"><Link href='/contact'>ENQUIRE NOW</Link></button>
+            <button className="px-[5%] py-2 text-[4vw] mt-4 rounded-full w-fit font-semibold tracking-wide text-[#063231] bg-[#cbff54] hover:bg-lime-500 cursor-pointer font-c2a"><Link href='/contact'>ENQUIRE NOW</Link></button>
           </div>
 
         </div>
@@ -1407,7 +1407,7 @@ export default function Service() {
           <p className="font-semibold text-[#305658] text-[4vw] font-primary">3-STEP PROCESS</p>
           <p className="font-bold text-[8vw] font-primary text-[#063231]">Our Process, Made Simple</p>
           <p className=" text-[#305658] font-sencondary text-[4vw]">We believe that great homes are built through open communication and proper planning.
-Here’s how we make the process easy for you:</p>
+Here&apos;s how we make the process easy for you:</p>
         </div>
 
         <div className="grid grid-row-3 gap-5 items-center h-full w-full pt-10">
@@ -1431,7 +1431,7 @@ Here’s how we make the process easy for you:</p>
           </div>
         </div>  
         <div className=" flex items-center justify-around p-10 text-center">
-          <p className=" h-full text-[4.5vw] tracking-widest text-[#305658] font-semibold bg-[#cbff54] cursor-pointer hover:bg-[#ccfa61]  px-3 py-2 rounded-full font-c2a"><Link href="/contact">Schedule a Free Consultation</Link></p>
+          <p className=" h-full text-[4.5vw] tracking-widest text-[#305658] font-semibold bg-[#cbff54] cursor-pointer hover:bg-lime-500  px-3 py-2 rounded-full font-c2a"><Link href="/contact">Schedule a Free Consultation</Link></p>
         </div>
       </div>
       

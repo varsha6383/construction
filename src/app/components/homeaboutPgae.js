@@ -21,7 +21,7 @@ export default function Home() {
         </div>
 
         {/* Overlapping small image */}
-        <div className="absolute top-[70%] left-[55%] w-[45%] rounded-3xl overflow-hidden shadow-xl border-4 border-white">
+        <div className="absolute top-[70%] left-[65%] w-[30%] rounded-3xl overflow-hidden shadow-xl border-4 border-white">
           <Image
             src="https://images.pexels.com/photos/290275/pexels-photo-290275.jpeg"
             alt="Office Building"
@@ -33,7 +33,7 @@ export default function Home() {
       </div>
 
       {/* Right: Text */}
-      <div className="w-1/2 space-y-4">
+      <div className="w-1/2 space-y-3">
         <p className="text-[1.1vw] font-semibold text-[#063231] font-primary">
           ABOUT US
         </p>
@@ -44,12 +44,12 @@ export default function Home() {
           Kambainallore & Dharmapuri
         </h1>
 
-        <p className="text-gray-700 text-[1.1vw] pr-[5%] font-secondary">
+        <p className="text-gray-700 text-[1.2vw] pr-[5%] font-secondary">
           Sri Velan Constructions is a local construction company based in
           Kambainallore, Dharmapuri. With years of hands-on experience, we focus
           on residential building projects that meet both budget and quality
           expectations. We believe in honesty, hard work, and customer
-          satisfaction — that’s how we’ve earned the trust of families across
+          satisfaction — that&apos;s how we&apos;ve earned the trust of families across
           the region.
         </p>
 
@@ -119,7 +119,7 @@ export default function Home() {
           Kambainallore, Dharmapuri. With years of hands-on experience, we focus
           on residential building projects that meet both budget and quality
           expectations. We believe in honesty, hard work, and customer
-          satisfaction — that’s how we’ve earned the trust of families across
+          satisfaction — that&apos;s how we&apos;ve earned the trust of families across
           the region.
         </p>
 
@@ -194,7 +194,7 @@ export default function Home() {
           Kambainallore, Dharmapuri. With years of hands-on experience, we focus
           on residential building projects that meet both budget and quality
           expectations. We believe in honesty, hard work, and customer
-          satisfaction — that’s how we’ve earned the trust of families across
+          satisfaction — that&apos;s how we&apos;ve earned the trust of families across
           the region.
         </p>
 
@@ -264,7 +264,7 @@ export default function Home() {
           Kambainallore, Dharmapuri. With years of hands-on experience, we focus
           on residential building projects that meet both budget and quality
           expectations. We believe in honesty, hard work, and customer
-          satisfaction — that’s how we’ve earned the trust of families across
+          satisfaction — that&apos;s how we&apos;ve earned the trust of families across
           the region.
         </p>
 

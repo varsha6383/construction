@@ -133,7 +133,7 @@ export default function Footer() {
     <div className="hidden lg:block xl:hidden">
   <footer className="bg-[#0c3c3f] text-white pt-20 relative">
     {/* 🔹 Main Footer */}
-    <div className="max-w-9xl px-[10%] grid grid-cols-4 max-md:text-center  pb-16">
+    <div className="max-w-9xl px-[8%] grid grid-cols-4 max-md:text-center  pb-16">
 
       {/* Left - Logo & About */}
       <div>
@@ -371,7 +371,7 @@ export default function Footer() {
                 
                     </Link>
         </h3>
-        <p className="text-gray-300 mb-5 text-left leading-relaxed font-secondary text-[3.5vw]">
+        <p className="text-gray-300 mb-5 text-left leading-relaxed font-secondary text-[4vw]">
           Your trusted construction partner in Dharmapuri, building strong homes with honest work and lasting results.
         </p>
         <div className="flex space-x-4">
@@ -386,7 +386,7 @@ export default function Footer() {
       <div className="flex gap-[30%]">
         <div>
           <h4 className="text-[4.5vw] font-semibold mb-4 font-primary">Company</h4>
-          <ul className="space-y-3 text-gray-300 text-left text-[3.5vw]">
+          <ul className="space-y-3 text-gray-300 text-left text-[4vw]">
             <li><Link href="/" className="hover:text-lime-400 font-c2a cursor-pointer">Home</Link></li>
             <li><Link href="/about" className="hover:text-lime-400 font-c2a cursor-pointer">About</Link></li>
             <li><Link href="/service" className="hover:text-lime-400 font-c2a cursor-pointer">Services</Link></li>
@@ -397,7 +397,7 @@ export default function Footer() {
 
         <div>
           <h4 className="text-[4.5vw] text-left font-semibold mb-4 font-primary">Support</h4>
-          <ul className="space-y-2 text-left  text-gray-300 text-[3.5vw]">
+          <ul className="space-y-2 text-left  text-gray-300 text-[4vw]">
             <li><Link href="/privacy" className="hover:text-lime-400 font-c2a cursor-pointer">Privacy Policy</Link></li>
             <li><Link href="/terms" className="hover:text-lime-400 font-c2a  cursor-pointer">Terms & Conditions</Link></li>
           </ul>
@@ -415,8 +415,8 @@ export default function Footer() {
           <div className="flex gap-3 items-start">
             <div><FaPhoneAlt size={20} color="#ffffff" className="cursor-pointer mt-1" /></div>
             <div>
-              <h1 className="font-c2a font-bold text-gray-300 text-left text-[3.5vw]">Call Us</h1>
-              <h1 className="text-gray-300 text-[3vw]">+91 82485 01872</h1>
+              <h1 className="font-c2a font-bold text-gray-300 text-left text-[4vw]">Call Us</h1>
+              <h1 className="text-gray-300 text-[3.5vw]">+91 82485 01872</h1>
             </div>
           </div>
 
@@ -424,12 +424,12 @@ export default function Footer() {
           <div className="flex gap-3 items-start">
             <div><IoMdMail size={20} color="#ffffff" className="cursor-pointer mt-1" /></div>
             <div>
-              <h1 className="font-c2a font-bold text-gray-300 text-left text-[3.5vw]">Send Email</h1>
+              <h1 className="font-c2a font-bold text-gray-300 text-left text-[4vw]">Send Email</h1>
               <h1>
                 <Link
                   href="https://mail.google.com/mail/u/0/?to=srivelamconstruction@gmail.com&su=Enquiry+Regarding+Construction+Services&fs=1&tf=cm"
                   target="_blank"
-                  className="text-[3vw] text-gray-300 underline hover:text-green-800 transition-colors"
+                  className="text-[3.5vw] text-gray-300 underline hover:text-green-800 transition-colors"
                 >
                   srivelamconstruction@gmail.com
                 </Link>
@@ -441,8 +441,8 @@ export default function Footer() {
           <div className="flex gap-3 items-start">
             <div><FaLocationArrow size={20} color="#ffffff" className="cursor-pointer mt-1" /></div>
             <div>
-              <h1 className="font-c2a font-bold text-gray-300 text-left text-[3.5vw]">Address</h1>
-              <h1 className="text-gray-300 text-3vw]">Kambainallore, Dharmapuri</h1>
+              <h1 className="font-c2a font-bold text-gray-300 text-left text-[4vw]">Address</h1>
+              <h1 className="text-gray-300 text-3.5vw]">Kambainallore, Dharmapuri</h1>
             </div>
           </div>
         </div>
@@ -450,7 +450,7 @@ export default function Footer() {
     </div>
 
     {/* Bottom Border */}
-    <div className="border-t border-gray-600 text-center py-6 text-gray-400 text-[3vw] font-c2a">
+    <div className="border-t border-gray-600 text-center py-6 text-gray-400 text-[3.5vw] font-c2a">
       © {new Date().getFullYear()} All rights reserved.
       <Link href="https://www.zenth.in/" target="_blank" className="hover:underline ml-1">
         Zenth Tech.

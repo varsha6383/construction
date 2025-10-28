@@ -8,7 +8,7 @@ export default function Homedetailpage() {
         <div className="mx-[3%] flex items-start gap-[5%]">
           {/* Left Content */}
           <div className="w-1/2">
-            <p className="text-[1vw] font-semibold text-green-700 uppercase mb-[1%] font-primary">
+            <p className="text-[1vw] font-semibold text-[#305658] uppercase mb-[1%] font-primary">
               Why Choose Us
             </p>
             <h2 className="text-[2.8vw] font-bold text-[#063231] mb-[3%] font-primary leading-tight">
@@ -17,7 +17,7 @@ export default function Homedetailpage() {
               Apart
             </h2>
             <p className="text-gray-600 text-[1.2vw] leading-relaxed font-secondary">
-              We're more than just builders — we’re your trusted local partner.
+              We're more than just builders — we&apos;re your trusted local partner.
               From smart design to solid delivery, every detail is handled with
               care, precision, and pride.
             </p>
@@ -114,7 +114,7 @@ export default function Homedetailpage() {
         <div className="mx-[3%] flex items-start gap-[5%]">
           {/* Left Content */}
           <div className="w-1/2">
-            <p className="text-[1.2vw] font-semibold text-green-700 uppercase mb-[1%] font-primary">
+            <p className="text-[1.2vw] font-semibold text-[#305658] uppercase mb-[1%] font-primary">
               Why Choose Us
             </p>
             <h2 className="text-[3vw] font-bold text-[#063231] mb-[3%] font-primary leading-tight">
@@ -123,7 +123,7 @@ export default function Homedetailpage() {
               Apart
             </h2>
             <p className="text-gray-600 text-[1.4vw] leading-relaxed font-secondary">
-              We're more than just builders — we’re your trusted local partner.
+              We're more than just builders — we&apos;re your trusted local partner.
               From smart design to solid delivery, every detail is handled with
               care, precision, and pride.
             </p>
@@ -221,14 +221,14 @@ export default function Homedetailpage() {
       <div className="hidden sm:block lg:hidden">
         {/* Heading */}
         <div className="mb-12">
-          <p className="text-[2vw] font-semibold text-green-700 uppercase mb-2 font-primary">
+          <p className="text-[2vw] font-semibold text-[#305658] uppercase mb-2 font-primary">
             Why Choose Us
           </p>
           <h2 className="text-[5vw] font-bold text-[#063231] mb-3 font-primary">
             What Sets Us Apart
           </h2>
           <p className="text-gray-600 text-[3vw] font-secondary">
-            We're more than just builders — we’re your trusted local partner.
+            We're more than just builders — we&apos;re your trusted local partner.
             From smart design to solid delivery, every detail is handled with
             care, precision, and pride.
           </p>
@@ -323,14 +323,14 @@ export default function Homedetailpage() {
       <div className="block sm:hidden">
   {/* Heading */}
   <div className="mb-12">
-    <p className="text-[3.5vw] font-semibold text-green-700 uppercase mb-2 font-primary">
+    <p className="text-[3.5vw] font-semibold text-[#305658] uppercase mb-2 font-primary">
       Why Choose Us
     </p>
     <h2 className="text-[9vw] font-bold text-[#063231] mb-3 font-primary">
       What Sets Us Apart
     </h2>
     <p className="text-gray-600 text-[4vw] font-secondary">
-      We're more than just builders — we’re your trusted local partner.
+      We're more than just builders — we&apos;re your trusted local partner.
       From smart design to solid delivery, every detail is handled with
       care, precision, and pride.
     </p>

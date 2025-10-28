@@ -34,7 +34,7 @@ export default function Project() {
       title: "Perichagoudampatti Site",
       type: "Residential",
       status: "Completed",
-      img: "https://cdn.pixabay.com/photo/2023/09/19/15/42/ai-generated-8262931_1280.jpg",
+      img: "https://images.pexels.com/photos/290275/pexels-photo-290275.jpeg",
       desc: "A beautifully structured residential home featuring a functional layout and premium finish. Built using high-grade materials and experienced workmanship, ensuring strength and elegance in every detail.",
       highlights: [
         "Completed in 5 months",
@@ -60,14 +60,14 @@ export default function Project() {
       {/* Desktop Responsive*/}
       <div className="hidden h-full w-full xl:block bg-white mb-[5%]  text-[120%] ">
         <div className="bg-[#218686] bg-blend-multiply flex items-center justify-center  rounded-bl-[80%_100px] rounded-br-[80%_100px] w-full h-[70vh] bg-cover bg-center bg-[url('https://images.pexels.com/photos/1571457/pexels-photo-1571457.jpeg')]">
-          <div className="flex text-white items-center text-center gap-4 py-[10%] px-[15%] flex-col">
+          <div className="flex text-white items-center text-center gap-4 py-[10%] px-[20%] flex-col">
             <p className="bg-[#407d7d]/60  px-3 text-[1vw] font-semibold py-1 rounded-full cursor-pointer font-primary">
               PROJECTS
             </p>
             <p className="font-bold text-[3vw]  font-primary text-white">
               From Design to Reality
             </p>
-            <p className="font-sencondary text-[1.1vw] text-white">
+            <p className="font-sencondary text-[1.2vw] text-white">
               At Sri Velan Constructions, we turn every idea into a strong
               foundation of trust, quality, and craftsmanship. Explore our proud
               works — where each project speaks of dedication, precision, and
@@ -82,12 +82,12 @@ export default function Project() {
             <p className="font-semibold font-primary text-[#305658] text-[1vw]">
               BUILT TO LAST
             </p>
-            <p className="font-bold text-[2.5vw] px-[10%] text-[#063231] font-primary">
+            <p className="font-bold text-[3vw] px-[10%] text-[#063231] font-primary">
               Where Every Project Becomes a Landmark
             </p>
           </div>
           {/* Filter Buttons */}
-          <div className="flex gap-10 text-[1vw] justify-center pb-10">
+          <div className="flex gap-10 text-[1.2vw] justify-center pb-10">
             {["All", "Completed", "Upcoming"].map((cat) => (
               <p
                 key={cat}
@@ -125,7 +125,7 @@ export default function Project() {
                       height={1080}
                       className="object-cover h-full w-full mix-blend-multiply rounded-4xl"
                     />
-                    <div className="absolute top-[45%] left-[25%]  font-semibold font-sencondary text-black text-[2.5vw]">
+                    <div className="absolute top-[45%] left-[25%]  font-semibold font-sencondary text-white text-[2.5vw]">
                       {" "}
                       Coming Soon.....
                     </div>
@@ -143,15 +143,15 @@ export default function Project() {
                       />
                     </div>
                     <div className="flex flex-col gap-5 px-5 h-[50%]">
-                      <p className="font-bold text-[1.6vw] font-primary text-[#063231]">
+                      <p className="font-bold text-[1.7vw] font-primary text-[#063231]">
                         {project.title}
                       </p>
-                      <p className="font-sencondary text-[1.2vw] h-full indent-8 text-[#305658]">
+                      <p className="font-sencondary text-[1.2vw] h-full  text-[#305658]">
                         {project.desc}
                       </p>
                       {project.highlights.length > 0 && (
                         <>
-                          <p className="font-semibold text-[1.2vw] font-primary text-[#063231]">
+                          <p className="font-semibold text-[1.5vw] font-primary text-[#063231]">
                             Highlights
                           </p>
                           {project.highlights.map((item, i) => (
@@ -170,7 +170,7 @@ export default function Project() {
                               >
                                 <path d="m9 12 2 2 4-6" />
                               </svg>
-                              <p className="font-sencondary text-[1.2vw] ">
+                              <p className="font-sencondary text-[1.1vw] ">
                                 {item}
                               </p>
                             </div>
@@ -263,7 +263,7 @@ export default function Project() {
                       height={1080}
                       className="object-cover h-full mix-blend-multiply w-full rounded-4xl"
                     />
-                    <div className="absolute top-[45%] left-[25%]  font-semibold font-sencondary text-black text-[3vw]">
+                    <div className="absolute top-[45%] left-[25%]  font-semibold font-sencondary text-white text-[3vw]">
                       {" "}
                       Coming Soon.....
                     </div>
@@ -284,7 +284,7 @@ export default function Project() {
                       <p className="font-bold text-[2.8vw] font-primary text-[#063231]">
                         {project.title}
                       </p>
-                      <p className="font-sencondary text-[1.8vw]  h-full indent-8 ">
+                      <p className="font-sencondary text-[1.8vw]  h-full  ">
                         {project.desc}
                       </p>
                       {project.highlights.length > 0 && (
@@ -369,7 +369,7 @@ export default function Project() {
               <p
                 key={cat}
                 onClick={() => setFilter(cat)}
-                className={`cursor-pointer font-bold mx-[5%] text-[#305658] text-[2.5vw] items-center text-center py-4  tracking-wider shadow-xl rounded-xl transition-colors 
+                className={`cursor-pointer font-bold mx-[8%] text-[#305658] text-[2.5vw] items-center text-center py-4  tracking-wider shadow-xl rounded-xl transition-colors 
         ${
           filter === cat
             ? "font-bold font-primary tracking-wider bg-[#063231] text-[#cbff54]"
@@ -386,7 +386,7 @@ export default function Project() {
           </div>
 
           {/* Projects */}
-          <div className="flex flex-col auto-rows-auto px-[5%] gap-5">
+          <div className="flex flex-col auto-rows-auto px-[8%] gap-5">
             {filteredProjects.map((project, index) => (
               <div
                 key={index}
@@ -402,7 +402,7 @@ export default function Project() {
                       height={1080}
                       className="object-cover  h-full w-full mix-blend-multiply rounded-4xl"
                     />
-                    <div className="absolute top-[45%] left-[25%] font-semibold font-sencondary text-black text-[5vw] ">
+                    <div className="absolute top-[45%] left-[25%] font-semibold font-sencondary text-white text-[5vw] ">
                       {" "}
                       Coming Soon.....
                     </div>
@@ -474,14 +474,15 @@ export default function Project() {
       {/* Mobile  responsive*/}
 
       <div className="sm:hidden block  bg-white mb-[5%] ">
-        <div className="bg-[#218686] bg-blend-multiply flex items-center justify-center  rounded-bl-[80%_100px] rounded-br-[80%_100px] w-full h-[45vh] bg-cover bg-center bg-[url('https://images.pexels.com/photos/1571457/pexels-photo-1571457.jpeg')]">
+        <div className="bg-[#218686] bg-blend-multiply flex items-center justify-center  rounded-bl-[80%_50px] rounded-br-[80%_50px] w-full h-[45vh] bg-cover bg-center bg-[url('https://images.pexels.com/photos/1571457/pexels-photo-1571457.jpeg')]">
           <div className="flex text-white items-center text-center gap-4 py-[10%] px-[8%] flex-col">
             <p className="bg-[#407d7d]/60  px-3 text-[4vw] font-semibold py-1 rounded-full cursor-pointer font-c2a">
               PROJECTS
             </p>
             <p className="font-bold text-[7vw] font-primary text-white">From Design to Reality</p>
             <p className="font-sencondary text-[4vw] text-white">
-              At Sri Velan Constructions, we turn every idea into a strong foundation of trust, quality, and craftsmanship. Explore our proud works — where each project speaks of dedication, precision, and the promise to last for generations.
+      At Sri Velan Constructions, we turn every idea into a strong
+              foundation of trust, quality, and craftsmanship.
             </p>
           </div>
         </div>
@@ -533,7 +534,7 @@ export default function Project() {
                       height={1080}
                       className="object-cover  h-full w-full mix-blend-multiply  rounded-4xl"
                     />
-                    <div className="absolute top-[45%] left-[25%] font-semibold font-sencondary text-black text-[7vw]"> Coming Soon.....</div>
+                    <div className="absolute top-[45%] left-[25%] font-semibold font-sencondary text-white text-[7vw]"> Coming Soon.....</div>
                   </div>
                 ) : (
                   <>

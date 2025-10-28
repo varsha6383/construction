@@ -5,7 +5,7 @@ export default function TermsConditions() {
     <main>
       {/* Desktop responsive */}
       <div className="bg-white h-full w-full hidden xl:block ">
-        <div className="h-[40vh] w-full flex flex-col justify-center items-center bg-[#063231] text-white gap-2">
+        <div className="bg-[#0c3c3f] text-center text-white py-[10%]">
           <p className="font-semibold  text-[3vw]  font-primary">Terms & Conditions</p>
         </div>
         {/* Section */}
@@ -13,7 +13,7 @@ export default function TermsConditions() {
           <ol className="space-y-8">
 
             <li>
-              <h2 className="font-semibold text-[1.8vw]  font-primary text-[#063231]">1. Introduction</h2>
+              <h2 className="font-semibold text-[2vw]  font-primary text-[#063231]">1. Introduction</h2>
               <p className="font-sencondary text-[#305658] text-[1.2vw]">
                 Welcome to <strong className="text-[#063231]">SRI VELAN CONSTRUCTION</strong>. By using our services or website,
                 you agree to comply with and be bound by the following terms and conditions.
@@ -21,7 +21,7 @@ export default function TermsConditions() {
             </li>
 
             <li>
-              <h2 className="font-semibold   text-[1.8vw]  font-primary text-[#063231]">2. Scope of Work</h2>
+              <h2 className="font-semibold   text-[2vw]  font-primary text-[#063231]">2. Scope of Work</h2>
               <p className="font-sencondary text-[1.2vw] text-[#305658]">
                 All construction work carried out by SRI VELAN CONSTRUCTION will adhere to the contract specifications,
                 approved plans, and drawings. Work includes civil construction, flooring, roofing, plumbing, electrical,
@@ -30,7 +30,7 @@ export default function TermsConditions() {
             </li>
 
             <li>
-              <h2 className="font-semibold  text-[1.8vw]  font-primary text-[#063231]">3. Payment Terms</h2>
+              <h2 className="font-semibold  text-[2vw]  font-primary text-[#063231]">3. Payment Terms</h2>
               <ul className="list-disc ml-5">
                 <li className="font-sencondary text-[1.2vw] text-[#305658]">Payment shall be made as agreed in the contract, typically per square foot or per item of work completed.</li>
                 <li className="font-sencondary text-[1.2vw] text-[#305658]" >Service tax, labor welfare contributions, or other applicable taxes will be borne by the client.</li>
@@ -39,7 +39,7 @@ export default function TermsConditions() {
             </li>
 
             <li>
-              <h2 className="font-semibold  text-[1.8vw]  font-primary text-[#063231]">4. Completion and Timeline</h2>
+              <h2 className="font-semibold  text-[2vw]  font-primary text-[#063231]">4. Completion and Timeline</h2>
               <ul className="list-disc ml-5 ">
                 <li className="font-sencondary text-[1.2vw] text-[#305658]">Work will commence within seven days of confirmed work order and drawings.</li>
                 <li className="font-sencondary text-[1.2vw] text-[#305658]">The agreed completion period is specified in the contract. Timely completion is essential.</li>
@@ -48,7 +48,7 @@ export default function TermsConditions() {
             </li>
 
             <li>
-              <h2 className="font-semibold  text-[1.8vw]  font-primary text-[#063231]">5. Contractor Responsibilities</h2>
+              <h2 className="font-semibold  text-[2vw]  font-primary text-[#063231]">5. Contractor Responsibilities</h2>
               <ul className="list-disc ml-5">
                 <li className="font-sencondary text-[1.2vw] text-[#305658]">Execution of work with high-quality materials and workmanship.</li>
                 <li className="font-sencondary text-[1.2vw] text-[#305658]">Compliance with approved drawings, plans, and specifications.</li>
@@ -58,7 +58,7 @@ export default function TermsConditions() {
             </li>
 
             <li>
-              <h2 className="font-semibold  text-[1.8vw]  font-primary text-[#063231]">6. Owner Responsibilities</h2>
+              <h2 className="font-semibold  text-[2vw]  font-primary text-[#063231]">6. Owner Responsibilities</h2>
               <ul className="list-disc ml-5">
                 <li className="font-sencondary text-[1.2vw] text-[#305658]">Timely payment as per contract terms.</li>
                 <li className="font-sencondary text-[1.2vw] text-[#305658]">Providing necessary approvals, access, and support for project execution.</li>
@@ -66,7 +66,7 @@ export default function TermsConditions() {
             </li>
 
             <li>
-              <h2 className="font-semibold  text-[1.8vw]  font-primary text-[#063231]">7. Liability and Risk</h2>
+              <h2 className="font-semibold  text-[2vw]  font-primary text-[#063231]">7. Liability and Risk</h2>
               <ul className="list-disc ml-5">
                 <li className="font-sencondary text-[1.2vw] text-[#305658]">Contractor is responsible for all risks, damages, or accidents during project execution.</li>
                 <li className="font-sencondary text-[1.2vw] text-[#305658]">Owner is not liable for worker injuries, damages, or delays caused by unforeseen circumstances.</li>
@@ -74,7 +74,7 @@ export default function TermsConditions() {
             </li>
 
             <li>
-              <h2 className="font-semibold  text-[1.8vw]  font-primary text-[#063231]">8. Defects and Rectification</h2>
+              <h2 className="font-semibold  text-[2vw]  font-primary text-[#063231]">8. Defects and Rectification</h2>
               <p className="font-sencondary text-[1.2vw] text-[#305658]">
                 Contractor shall rectify defects identified by the Owner within a reasonable time. Rectifications should
                 be completed within four months from project completion.
@@ -82,7 +82,7 @@ export default function TermsConditions() {
             </li>
 
             <li>
-              <h2 className="font-semibold  text-[1.8vw]  font-primary text-[#063231]">9. Termination</h2>
+              <h2 className="font-semibold  text-[2vw]  font-primary text-[#063231]">9. Termination</h2>
               <p className="font-sencondary text-[1.2vw] text-[#305658]">
                 Owner may terminate the contract for breach, stoppage of work over 30 days without authorization,
                 unacceptable quality, or failure to rectify defects.
@@ -90,14 +90,14 @@ export default function TermsConditions() {
             </li>
 
             <li>
-              <h2 className="font-semibold  text-[1.8vw] font-primary text-[#063231]">10. Dispute Resolution</h2>
+              <h2 className="font-semibold  text-[2vw] font-primary text-[#063231]">10. Dispute Resolution</h2>
               <p className="font-sencondary text-[1.2vw] text-[#305658]">
                 Any disputes arising from the contract will be resolved through arbitration under the Arbitration and Conciliation Act, 1996.
               </p>
             </li>
 
             <li>
-              <h2 className="font-semibold  text-[1.8vw]  font-primary text-[#063231]">11. Governing Law</h2>
+              <h2 className="font-semibold  text-[2vw]  font-primary text-[#063231]">11. Governing Law</h2>
               <p className="font-sencondary text-[1.2vw] text-[#305658]">
                 The contract shall be governed by and construed in accordance with the laws of India.
               </p>

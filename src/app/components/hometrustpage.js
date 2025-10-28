@@ -68,15 +68,15 @@ export default function Hometrustpage() {
         <div className="flex flex-row items-center justify-between bg-white pb-12 gap-10">
           {/* Left */}
           <div className="w-1/2">
-            <p className="text-green-700 font-semibold text-[1vw] mb-2 tracking-wide uppercase font-primary">
+            <p className="text-[#305658] font-semibold text-[1vw] mb-2 tracking-wide uppercase font-primary">
               Proven & Trusted
             </p>
             <h2 className="text-[2.6vw] font-bold text-[#063231] leading-tight mb-4 font-primary">
               Backed by Results, <br /> Built on Relationships
             </h2>
-            <p className="text-gray-600 text-[1.1vw] mb-8 leading-relaxed font-secondary">
-              Brikly has become a name homeowners trust. Whether it’s new
-              construction or custom renovation, you’re in good company when you
+            <p className="text-gray-600 text-[1.2vw] mb-8 leading-relaxed font-secondary">
+              Brikly has become a name homeowners trust. Whether it&apos;s new
+              construction or custom renovation, you&apos;re in good company when you
               build with Brikly. Our strong partnerships are a reflection of the
               confidence our clients place in us — project after project.
             </p>
@@ -131,15 +131,15 @@ export default function Hometrustpage() {
       <div className="hidden lg:block xl:hidden">
         <div className="flex flex-row items-center justify-between bg-white pb-12 gap-10">
           <div className="w-1/2">
-            <p className="text-green-700 font-semibold text-[1.2vw] mb-2 tracking-wide uppercase font-primary">
+            <p className="text-[#305658] font-semibold text-[1.2vw] mb-2 tracking-wide uppercase font-primary">
               Proven & Trusted
             </p>
             <h2 className="text-[3vw] font-bold text-[#063231] leading-tight mb-4 font-primary">
               Backed by Results, <br /> Built on Relationships
             </h2>
             <p className="text-gray-600 text-[1.4vw] mb-4 leading-relaxed font-secondary">
-              Brikly has become a name homeowners trust. Whether it’s new
-              construction or custom renovation, you’re in good company when you
+              Brikly has become a name homeowners trust. Whether it&apos;s new
+              construction or custom renovation, you&apos;re in good company when you
               build with Brikly. Our strong partnerships are a reflection of the
               confidence our clients place in us — project after project.
             </p>
@@ -201,8 +201,8 @@ export default function Hometrustpage() {
             </h2>
 
             <p className="text-[#1b4343] mb-[6%] text-[3vw] leading-relaxed font-secondary">
-              Brikly has become a name homeowners trust. Whether it’s new
-              construction or custom renovation, you’re in good company when you
+              Brikly has become a name homeowners trust. Whether it&apos;s new
+              construction or custom renovation, you&apos;re in good company when you
               build with Brikly.
             </p>
 
@@ -267,8 +267,8 @@ export default function Hometrustpage() {
       </h2>
 
       <p className="text-[#1b4343] mb-[6%] text-[4vw] leading-relaxed font-secondary">
-        Brikly has become a name homeowners trust. Whether it’s new construction 
-        or custom renovation, you’re in good company when you build with Brikly. 
+        Brikly has become a name homeowners trust. Whether it&apos;s new construction 
+        or custom renovation, you&apos;re in good company when you build with Brikly. 
         Our strong partnerships are a reflection of the confidence our clients 
         place in us — project after project.
       </p>

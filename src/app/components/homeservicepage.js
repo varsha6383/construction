@@ -41,7 +41,7 @@ export default function Homeservicepage() {
   <div className="mt-[8%] pt-[5%] pb-[15%]">
   {/* Section Header */}
   <div className="space-y-3 px-4 text-center">
-    <h1 className="text-[#063231] text-[1vw] font-primary">WHAT WE DO</h1>
+    <h1 className="text-[#063231] font-semibold text-[1.1vw] font-primary">WHAT WE DO</h1>
     <h1 className="text-[#063231] font-bold text-[2.5vw] font-primary">
       Our Construction Services
     </h1>
@@ -53,7 +53,7 @@ export default function Homeservicepage() {
       {services.map((service) => (
         <div key={service.id} className="relative flex flex-col items-center">
           {/* Image */}
-          <div className="w-full h-[35vh]">
+          <div className="w-full h-[45vh]">
             <Image
               src={service.image}
               alt={service.title}
@@ -78,7 +78,7 @@ export default function Homeservicepage() {
             {/* ENQUIRE NOW button */}
             <Link
               href="/contact"
-              className="text-[#063231] cursor-pointer text-[1vw] border-t border-gray-200 pt-[3%] font-semibold hover:underline font-c2a"
+              className="text-[#063231] cursor-pointer text-[1vw] border-t border-gray-200 pt-[6%] mt-[6%] font-semibold hover:underline font-c2a"
             >
               ENQUIRE NOW
             </Link>
@@ -118,6 +118,7 @@ export default function Homeservicepage() {
             />
           </div>
 
+
           {/* Card Content */}
           <div className="bg-white w-[75%] absolute top-[62%] left-1/2 -translate-x-1/2 rounded-2xl shadow-lg text-center p-[6%] flex flex-col justify-between min-h-[30vh]">
             <div className="flex flex-col items-center flex-grow">
@@ -125,7 +126,7 @@ export default function Homeservicepage() {
               <h3 className="text-[2vw] font-semibold text-[#063231] mt-[2%] font-primary">
                 {service.title}
               </h3>
-              <p className="text-gray-600 text-[1.3vw] px-[4%] font-secondary leading-relaxed flex-grow">
+              <p className="text-gray-600 text-[1.3vw] px-[4%] mb-[2%] font-secondary leading-relaxed flex-grow">
                 {service.description}
               </p>
             </div>
@@ -189,7 +190,7 @@ export default function Homeservicepage() {
             {/* ENQUIRE NOW button */}
             <Link
               href="/contact"
-              className="text-[#063231] cursor-pointer border-t border-gray-200 pt-[5%] mt-[3%] font-semibold hover:underline font-c2a  text-[2vw]"
+              className="text-[#063231] cursor-pointer border-t border-gray-200 pt-[5%] mt-[5%] font-semibold hover:underline font-c2a  text-[2vw]"
             >
               ENQUIRE NOW
             </Link>
@@ -206,7 +207,7 @@ export default function Homeservicepage() {
 <div className="block sm:hidden pt-[10%] mt-[10%] pb-[35%]">
         {/* Section Header */}
         <div className="space-y-[2%] px-[5%] text-center">
-          <h1 className="text-[#063231] text-[3.5vw] font-primary">WHAT WE DO</h1>
+          <h1 className="text-[3.5vw] font-semibold text-[#305658] uppercase mb-2 font-primary">WHAT WE DO</h1>
           <h1 className="text-[#063231] font-bold text-[8vw] font-primary">
             Our Construction Services
           </h1>
@@ -243,7 +244,7 @@ export default function Homeservicepage() {
                   {/* ENQUIRE NOW button */}
                   <Link
                     href="/contact"
-                    className="text-[#063231] cursor-pointer border-t border-gray-200 pt-[10%] font-semibold hover:underline font-c2a text-[3.5vw]"
+                    className="text-[#063231] cursor-pointer border-t border-gray-200 pt-[6%] mt-[6%] font-semibold hover:underline font-c2a text-[3.5vw]"
                   >
                     ENQUIRE NOW
                   </Link>
